@@ -1,0 +1,7 @@
+﻿nyc_taxi:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "{{ env_var('DBT_DUCKDB_PATH', 'data/nyc_taxi.duckdb') }}"
+      threads: 4

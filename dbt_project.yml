@@ -1,0 +1,25 @@
+name: nyc_taxi
+version: "1.0.0"
+config-version: 2
+profile: nyc_taxi
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+clean-targets: ["target", "dbt_packages"]
+
+vars:
+  trip_start_date: "2023-01-01"
+  trip_end_date: "2024-01-01"
+  max_trip_minutes: 360
+  max_speed_mph: 80
+
+models:
+  nyc_taxi:
+    staging:
+      +materialized: view
+    intermediate:
+      +materialized: view
+    marts:
+      +materialized: table

@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: stg_yellow_trips
+    description: Cleaned yellow taxi trips with typed, renamed columns and obvious junk removed.
+    columns:
+      - name: trip_id
+        description: Surrogate key (hash of trip attributes plus duplicate sequence).
+        data_tests:
+          - unique
+          - not_null
+      - name: pickup_at
+        data_tests:
+          - not_null
+      - name: payment_type
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [flex_fare, credit_card, cash, no_charge, dispute, unknown, voided_trip, other]
+      - name: fare_amount
+        data_tests:
+          - non_negative
+
+  - name: stg_taxi_zones
+    description: TLC taxi zone lookup (from the taxi_zone_lookup seed).
+    columns:
+      - name: zone_id
+        data_tests:
+          - unique
+          - not_null

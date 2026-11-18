@@ -1,0 +1,42 @@
+version: 2
+
+models:
+  - name: int_trips_enriched
+    description: >
+      Trips joined to zone names with derived duration, speed, tip percentage and
+      an airport flag. Duration and speed outliers are removed here.
+
+unit_tests:
+  - name: test_tip_pct_only_for_credit_card_trips
+    description: Tip percentage is computed for card payments and null for cash.
+    model: int_trips_enriched
+    given:
+      - input: ref('stg_yellow_trips')
+        rows:
+          - {trip_id: card, pickup_at: "2023-06-01 10:00:00", dropoff_at: "2023-06-01 10:20:00", trip_distance_miles: 5.0, pickup_zone_id: 161, dropoff_zone_id: 237, payment_type_id: 1, fare_amount: 20.0, tip_amount: 4.0}
+          - {trip_id: cash, pickup_at: "2023-06-01 10:00:00", dropoff_at: "2023-06-01 10:20:00", trip_distance_miles: 5.0, pickup_zone_id: 161, dropoff_zone_id: 237, payment_type_id: 2, fare_amount: 20.0, tip_amount: 0.0}
+      - input: ref('stg_taxi_zones')
+        rows:
+          - {zone_id: 161, borough: Manhattan, zone_name: Midtown Center, service_zone: Yellow Zone}
+          - {zone_id: 237, borough: Manhattan, zone_name: Upper East Side South, service_zone: Yellow Zone}
+    expect:
+      rows:
+        - {trip_id: card, tip_pct: 0.2, duration_minutes: 20.0, avg_speed_mph: 15.0, is_airport_trip: false}
+        - {trip_id: cash, tip_pct: null, duration_minutes: 20.0, avg_speed_mph: 15.0, is_airport_trip: false}
+
+  - name: test_outliers_are_dropped
+    description: Trips implying impossible speeds or sub-minute durations are removed.
+    model: int_trips_enriched
+    given:
+      - input: ref('stg_yellow_trips')
+        rows:
+          - {trip_id: ok, pickup_at: "2023-06-01 10:00:00", dropoff_at: "2023-06-01 10:30:00", trip_distance_miles: 10.0, pickup_zone_id: 161, dropoff_zone_id: 237, payment_type_id: 1, fare_amount: 30.0, tip_amount: 3.0}
+          - {trip_id: too_fast, pickup_at: "2023-06-01 10:00:00", dropoff_at: "2023-06-01 10:05:00", trip_distance_miles: 100.0, pickup_zone_id: 161, dropoff_zone_id: 237, payment_type_id: 1, fare_amount: 30.0, tip_amount: 3.0}
+          - {trip_id: too_short, pickup_at: "2023-06-01 10:00:00", dropoff_at: "2023-06-01 10:00:30", trip_distance_miles: 0.1, pickup_zone_id: 161, dropoff_zone_id: 237, payment_type_id: 1, fare_amount: 3.0, tip_amount: 0.0}
+      - input: ref('stg_taxi_zones')
+        rows:
+          - {zone_id: 161, borough: Manhattan, zone_name: Midtown Center, service_zone: Yellow Zone}
+          - {zone_id: 237, borough: Manhattan, zone_name: Upper East Side South, service_zone: Yellow Zone}
+    expect:
+      rows:
+        - {trip_id: ok}

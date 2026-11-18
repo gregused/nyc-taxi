@@ -1,0 +1,43 @@
+version: 2
+
+models:
+  - name: dim_zones
+    description: Taxi zone dimension.
+    columns:
+      - name: zone_id
+        data_tests: [unique, not_null]
+
+  - name: fct_trips
+    description: >
+      One row per cleaned yellow taxi trip. Incremental by pickup month using
+      delete+insert on trip_id.
+    columns:
+      - name: trip_id
+        data_tests: [unique, not_null]
+      - name: pickup_zone_id
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_zones')
+                field: zone_id
+      - name: dropoff_zone_id
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_zones')
+                field: zone_id
+      - name: total_amount
+        data_tests: [non_negative]
+      - name: duration_minutes
+        data_tests: [not_null]
+
+  - name: daily_trip_summary
+    description: Trips, revenue and averages by pickup date and pickup borough.
+    columns:
+      - name: pickup_date
+        data_tests: [not_null]
+      - name: trips
+        data_tests: [non_negative]
+
+  - name: fct_hourly_pickups
+    description: Pickup counts per zone and hour.
