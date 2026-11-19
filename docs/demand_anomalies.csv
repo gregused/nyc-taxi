@@ -1,0 +1,905 @@
+pickup_zone_id,zone_name,borough,pickup_hour,trips,baseline_mean,baseline_std,z_score,anomaly_type
+116,Hamilton Heights,Manhattan,2023-06-22 08:00:00,51,10.4,12.1,3.36,surge
+249,West Village,Manhattan,2023-07-04 01:00:00,106,35.4,21.6,3.27,surge
+79,East Village,Manhattan,2023-07-04 03:00:00,51,11.5,12.1,3.27,surge
+162,Midtown East,Manhattan,2023-08-29 00:00:00,75,31.0,13.5,3.25,surge
+162,Midtown East,Manhattan,2023-08-14 00:00:00,100,31.8,21.1,3.23,surge
+166,Morningside Heights,Manhattan,2023-06-04 00:00:00,55,10.8,13.7,3.23,surge
+164,Midtown South,Manhattan,2023-07-31 01:00:00,81,18.5,19.4,3.22,surge
+100,Garment District,Manhattan,2023-07-31 01:00:00,109,24.5,26.2,3.22,surge
+79,East Village,Manhattan,2023-07-04 01:00:00,111,32.8,24.4,3.2,surge
+166,Morningside Heights,Manhattan,2023-06-02 18:00:00,74,27.1,14.7,3.19,surge
+249,West Village,Manhattan,2023-07-04 00:00:00,110,55.5,17.2,3.16,surge
+148,Lower East Side,Manhattan,2023-07-04 01:00:00,67,17.8,15.7,3.15,surge
+142,Lincoln Square East,Manhattan,2023-08-29 06:00:00,89,32.5,18.0,3.15,surge
+24,Bloomingdale,Manhattan,2023-06-02 18:00:00,51,18.3,10.4,3.14,surge
+246,West Chelsea/Hudson Yards,Manhattan,2023-06-25 01:00:00,161,77.0,26.8,3.14,surge
+50,Clinton West,Manhattan,2023-08-19 10:00:00,62,27.8,10.9,3.14,surge
+79,East Village,Manhattan,2023-06-02 18:00:00,215,120.3,30.2,3.14,surge
+114,Greenwich Village South,Manhattan,2023-07-04 01:00:00,66,21.5,14.2,3.13,surge
+262,Yorkville East,Manhattan,2023-07-04 09:00:00,28,122.7,30.2,-3.13,drop
+239,Upper West Side South,Manhattan,2023-06-02 18:00:00,400,180.3,70.3,3.13,surge
+166,Morningside Heights,Manhattan,2023-06-02 21:00:00,44,14.1,9.6,3.12,surge
+236,Upper East Side North,Manhattan,2023-06-02 18:00:00,586,252.8,106.7,3.12,surge
+263,Yorkville West,Manhattan,2023-07-04 09:00:00,35,108.1,23.5,-3.11,drop
+249,West Village,Manhattan,2023-07-04 02:00:00,68,22.4,14.7,3.11,surge
+141,Lenox Hill West,Manhattan,2023-06-02 18:00:00,319,178.4,45.4,3.1,surge
+166,Morningside Heights,Manhattan,2023-08-27 20:00:00,41,13.8,8.8,3.1,surge
+141,Lenox Hill West,Manhattan,2023-07-04 08:00:00,28,135.2,34.6,-3.1,drop
+50,Clinton West,Manhattan,2023-07-01 08:00:00,43,16.2,8.7,3.09,surge
+246,West Chelsea/Hudson Yards,Manhattan,2023-06-22 01:00:00,79,41.9,12.0,3.09,surge
+50,Clinton West,Manhattan,2023-06-26 00:00:00,38,10.5,8.9,3.09,surge
+140,Lenox Hill East,Manhattan,2023-07-04 13:00:00,39,145.8,34.7,-3.08,drop
+229,Sutton Place/Turtle Bay North,Manhattan,2023-07-04 08:00:00,24,125.4,32.9,-3.08,drop
+186,Penn Station/Madison Sq West,Manhattan,2023-06-19 21:00:00,261,150.7,35.8,3.08,surge
+143,Lincoln Square West,Manhattan,2023-06-02 18:00:00,165,72.5,30.1,3.08,surge
+230,Times Sq/Theatre District,Manhattan,2023-07-04 21:00:00,76,289.4,69.6,-3.07,drop
+132,JFK Airport,Queens,2023-05-31 23:00:00,1,337.7,109.9,-3.07,drop
+79,East Village,Manhattan,2023-07-04 00:00:00,119,52.9,21.5,3.07,surge
+143,Lincoln Square West,Manhattan,2023-06-06 22:00:00,115,37.3,25.3,3.07,surge
+239,Upper West Side South,Manhattan,2023-06-05 22:00:00,175,75.7,32.3,3.07,surge
+74,East Harlem North,Manhattan,2023-08-19 19:00:00,37,11.7,8.2,3.07,surge
+262,Yorkville East,Manhattan,2023-07-04 06:00:00,14,51.6,12.3,-3.06,drop
+143,Lincoln Square West,Manhattan,2023-06-07 14:00:00,142,73.0,22.5,3.06,surge
+186,Penn Station/Madison Sq West,Manhattan,2023-06-23 00:00:00,236,85.4,49.4,3.05,surge
+237,Upper East Side South,Manhattan,2023-06-04 15:00:00,338,202.4,44.4,3.05,surge
+230,Times Sq/Theatre District,Manhattan,2023-05-31 20:00:00,1,197.6,64.6,-3.04,drop
+68,East Chelsea,Manhattan,2023-07-04 01:00:00,76,21.9,17.8,3.04,surge
+238,Upper West Side North,Manhattan,2023-06-01 20:00:00,154,76.0,25.6,3.04,surge
+79,East Village,Manhattan,2023-07-04 02:00:00,49,17.6,10.3,3.04,surge
+249,West Village,Manhattan,2023-07-04 03:00:00,35,11.5,7.8,3.03,surge
+239,Upper West Side South,Manhattan,2023-07-04 08:00:00,24,154.8,43.1,-3.03,drop
+263,Yorkville West,Manhattan,2023-06-02 18:00:00,271,129.8,46.6,3.03,surge
+43,Central Park,Manhattan,2023-06-05 12:00:00,172,109.5,20.6,3.03,surge
+50,Clinton West,Manhattan,2023-06-25 04:00:00,53,15.5,12.4,3.03,surge
+230,Times Sq/Theatre District,Manhattan,2023-06-12 02:00:00,45,17.7,9.0,3.02,surge
+90,Flatiron,Manhattan,2023-06-02 18:00:00,197,116.3,26.7,3.02,surge
+230,Times Sq/Theatre District,Manhattan,2023-06-12 01:00:00,96,32.8,21.0,3.02,surge
+151,Manhattan Valley,Manhattan,2023-06-02 18:00:00,137,65.7,23.7,3.01,surge
+140,Lenox Hill East,Manhattan,2023-07-04 12:00:00,42,153.4,37.0,-3.01,drop
+170,Murray Hill,Manhattan,2023-08-29 01:00:00,39,12.6,8.8,3.01,surge
+230,Times Sq/Theatre District,Manhattan,2023-05-31 23:00:00,2,193.4,63.7,-3.01,drop
+50,Clinton West,Manhattan,2023-06-12 20:00:00,51,24.5,8.8,3.0,surge
+107,Gramercy,Manhattan,2023-06-02 18:00:00,278,149.8,42.7,3.0,surge
+162,Midtown East,Manhattan,2023-06-23 00:00:00,188,68.8,39.7,3.0,surge
+164,Midtown South,Manhattan,2023-07-04 08:00:00,15,79.4,21.5,-3.0,drop
+237,Upper East Side South,Manhattan,2023-06-02 18:00:00,537,293.8,81.1,3.0,surge
+238,Upper West Side North,Manhattan,2023-06-02 18:00:00,257,127.1,43.3,3.0,surge
+238,Upper West Side North,Manhattan,2023-08-29 05:00:00,56,18.2,12.6,3.0,surge
+186,Penn Station/Madison Sq West,Manhattan,2023-07-04 06:00:00,21,127.5,35.5,-3.0,drop
+163,Midtown North,Manhattan,2023-07-04 08:00:00,18,85.2,22.4,-3.0,drop
+50,Clinton West,Manhattan,2023-06-25 03:00:00,53,17.5,11.8,3.0,surge
+50,Clinton West,Manhattan,2023-07-31 22:00:00,51,20.5,10.2,2.99,surge
+113,Greenwich Village North,Manhattan,2023-07-04 07:00:00,1,36.8,12.0,-2.99,drop
+70,East Elmhurst,Queens,2023-08-07 16:00:00,56,31.8,8.1,2.99,surge
+163,Midtown North,Manhattan,2023-06-12 01:00:00,32,11.8,6.8,2.99,surge
+186,Penn Station/Madison Sq West,Manhattan,2023-07-31 01:00:00,152,49.5,34.3,2.99,surge
+79,East Village,Manhattan,2023-06-16 14:00:00,169,85.8,27.8,2.99,surge
+48,Clinton East,Manhattan,2023-07-04 08:00:00,35,103.0,22.8,-2.99,drop
+48,Clinton East,Manhattan,2023-07-04 02:00:00,40,19.6,6.9,2.98,surge
+246,West Chelsea/Hudson Yards,Manhattan,2023-06-22 00:00:00,57,34.7,7.5,2.98,surge
+249,West Village,Manhattan,2023-07-04 06:00:00,3,19.8,5.6,-2.98,drop
+140,Lenox Hill East,Manhattan,2023-07-04 14:00:00,54,168.1,38.3,-2.98,drop
+143,Lincoln Square West,Manhattan,2023-06-01 20:00:00,83,46.9,12.2,2.97,surge
+161,Midtown Center,Manhattan,2023-07-04 13:00:00,102,304.6,68.2,-2.97,drop
+137,Kips Bay,Manhattan,2023-07-04 11:00:00,18,56.3,12.9,-2.97,drop
+79,East Village,Manhattan,2023-06-25 19:00:00,183,104.9,26.3,2.97,surge
+162,Midtown East,Manhattan,2023-07-04 09:00:00,56,216.2,54.0,-2.97,drop
+229,Sutton Place/Turtle Bay North,Manhattan,2023-07-04 07:00:00,10,78.5,23.1,-2.97,drop
+186,Penn Station/Madison Sq West,Manhattan,2023-07-30 01:00:00,195,90.3,35.2,2.97,surge
+43,Central Park,Manhattan,2023-06-02 19:00:00,171,123.5,16.0,2.97,surge
+262,Yorkville East,Manhattan,2023-07-04 08:00:00,22,142.5,40.5,-2.97,drop
+236,Upper East Side North,Manhattan,2023-07-04 06:00:00,9,67.3,19.6,-2.97,drop
+148,Lower East Side,Manhattan,2023-06-06 09:00:00,46,17.0,9.8,2.97,surge
+161,Midtown Center,Manhattan,2023-07-04 18:00:00,155,509.3,119.1,-2.97,drop
+140,Lenox Hill East,Manhattan,2023-07-04 11:00:00,75,149.2,25.0,-2.96,drop
+164,Midtown South,Manhattan,2023-07-31 02:00:00,25,10.2,5.0,2.96,surge
+140,Lenox Hill East,Manhattan,2023-07-04 10:00:00,38,147.3,36.9,-2.96,drop
+48,Clinton East,Manhattan,2023-06-02 18:00:00,267,165.8,34.2,2.96,surge
+142,Lincoln Square East,Manhattan,2023-06-02 18:00:00,391,201.8,63.9,2.96,surge
+186,Penn Station/Madison Sq West,Manhattan,2023-07-04 09:00:00,39,254.8,72.9,-2.96,drop
+162,Midtown East,Manhattan,2023-08-29 01:00:00,40,14.7,8.5,2.96,surge
+162,Midtown East,Manhattan,2023-06-22 00:00:00,156,60.8,32.2,2.95,surge
+234,Union Sq,Manhattan,2023-07-04 09:00:00,15,94.7,27.0,-2.95,drop
+170,Murray Hill,Manhattan,2023-07-04 12:00:00,84,197.8,38.6,-2.95,drop
+100,Garment District,Manhattan,2023-07-30 01:00:00,133,58.2,25.4,2.95,surge
+164,Midtown South,Manhattan,2023-07-04 20:00:00,67,157.2,30.5,-2.95,drop
+137,Kips Bay,Manhattan,2023-06-02 18:00:00,161,91.1,23.7,2.95,surge
+140,Lenox Hill East,Manhattan,2023-07-04 16:00:00,40,166.2,42.8,-2.95,drop
+138,LaGuardia Airport,Queens,2023-07-30 01:00:00,81,17.2,21.7,2.95,surge
+234,Union Sq,Manhattan,2023-07-04 07:00:00,8,45.7,12.8,-2.95,drop
+132,JFK Airport,Queens,2023-06-27 03:00:00,139,34.1,35.7,2.94,surge
+141,Lenox Hill West,Manhattan,2023-07-04 07:00:00,17,95.2,26.6,-2.94,drop
+255,Williamsburg (North Side),Brooklyn,2023-06-10 23:00:00,30,12.7,5.9,2.94,surge
+186,Penn Station/Madison Sq West,Manhattan,2023-07-04 07:00:00,15,198.6,62.7,-2.93,drop
+239,Upper West Side South,Manhattan,2023-07-04 09:00:00,46,150.8,35.8,-2.93,drop
+50,Clinton West,Manhattan,2023-06-22 07:00:00,36,19.9,5.5,2.93,surge
+237,Upper East Side South,Manhattan,2023-07-04 09:00:00,43,270.2,77.5,-2.93,drop
+236,Upper East Side North,Manhattan,2023-06-03 11:00:00,318,180.8,46.8,2.93,surge
+246,West Chelsea/Hudson Yards,Manhattan,2023-07-20 11:00:00,108,65.6,14.5,2.93,surge
+43,Central Park,Manhattan,2023-06-14 22:00:00,178,71.5,36.3,2.93,surge
+70,East Elmhurst,Queens,2023-07-11 09:00:00,53,20.8,11.0,2.93,surge
+249,West Village,Manhattan,2023-07-04 20:00:00,62,125.3,21.6,-2.93,drop
+114,Greenwich Village South,Manhattan,2023-07-04 21:00:00,27,101.8,25.5,-2.93,drop
+236,Upper East Side North,Manhattan,2023-06-04 18:00:00,247,150.1,33.2,2.92,surge
+237,Upper East Side South,Manhattan,2023-07-04 10:00:00,81,282.7,69.2,-2.92,drop
+263,Yorkville West,Manhattan,2023-07-04 08:00:00,28,114.4,29.6,-2.92,drop
+48,Clinton East,Manhattan,2023-06-25 06:00:00,52,31.4,7.1,2.92,surge
+144,Little Italy/NoLiTa,Manhattan,2023-06-12 10:00:00,26,12.9,4.5,2.92,surge
+170,Murray Hill,Manhattan,2023-07-04 08:00:00,28,149.0,41.4,-2.92,drop
+50,Clinton West,Manhattan,2023-06-24 02:00:00,52,21.6,10.4,2.92,surge
+43,Central Park,Manhattan,2023-06-02 00:00:00,43,13.8,10.0,2.92,surge
+138,LaGuardia Airport,Queens,2023-06-14 21:00:00,390,202.6,64.1,2.92,surge
+264,N/A,Unknown,2023-06-03 15:00:00,86,53.5,11.1,2.92,surge
+164,Midtown South,Manhattan,2023-07-04 16:00:00,59,149.2,30.9,-2.92,drop
+143,Lincoln Square West,Manhattan,2023-06-03 20:00:00,96,41.0,18.9,2.92,surge
+68,East Chelsea,Manhattan,2023-07-04 07:00:00,12,50.4,13.1,-2.92,drop
+143,Lincoln Square West,Manhattan,2023-06-16 13:00:00,125,67.9,19.6,2.91,surge
+43,Central Park,Manhattan,2023-06-01 20:00:00,172,76.9,32.7,2.91,surge
+100,Garment District,Manhattan,2023-07-04 08:00:00,30,89.5,20.4,-2.91,drop
+48,Clinton East,Manhattan,2023-07-04 07:00:00,21,96.2,25.8,-2.91,drop
+140,Lenox Hill East,Manhattan,2023-07-04 18:00:00,53,140.9,30.2,-2.91,drop
+138,LaGuardia Airport,Queens,2023-08-08 01:00:00,194,38.7,53.4,2.91,surge
+161,Midtown Center,Manhattan,2023-06-04 22:00:00,165,91.5,25.3,2.91,surge
+75,East Harlem South,Manhattan,2023-06-02 18:00:00,75,34.6,13.9,2.9,surge
+162,Midtown East,Manhattan,2023-07-04 06:00:00,20,59.8,13.7,-2.9,drop
+229,Sutton Place/Turtle Bay North,Manhattan,2023-07-04 13:00:00,39,113.1,25.6,-2.9,drop
+166,Morningside Heights,Manhattan,2023-08-29 09:00:00,64,25.9,13.1,2.9,surge
+161,Midtown Center,Manhattan,2023-07-04 15:00:00,160,375.4,74.4,-2.9,drop
+170,Murray Hill,Manhattan,2023-07-04 17:00:00,114,253.9,48.3,-2.9,drop
+48,Clinton East,Manhattan,2023-06-25 09:00:00,109,80.5,9.8,2.9,surge
+234,Union Sq,Manhattan,2023-06-25 14:00:00,41,122.5,28.1,-2.9,drop
+186,Penn Station/Madison Sq West,Manhattan,2023-07-04 08:00:00,31,246.4,74.4,-2.9,drop
+163,Midtown North,Manhattan,2023-06-17 03:00:00,40,24.1,5.5,2.9,surge
+74,East Harlem North,Manhattan,2023-07-10 08:00:00,31,12.3,6.4,2.9,surge
+137,Kips Bay,Manhattan,2023-07-04 13:00:00,20,61.3,14.3,-2.89,drop
+141,Lenox Hill West,Manhattan,2023-06-16 13:00:00,198,133.6,22.3,2.89,surge
+79,East Village,Manhattan,2023-06-19 00:00:00,122,56.7,22.6,2.89,surge
+237,Upper East Side South,Manhattan,2023-06-04 17:00:00,343,188.1,53.7,2.89,surge
+264,N/A,Unknown,2023-06-02 18:00:00,113,60.6,18.1,2.89,surge
+230,Times Sq/Theatre District,Manhattan,2023-07-09 21:00:00,220,130.5,30.9,2.89,surge
+151,Manhattan Valley,Manhattan,2023-06-18 22:00:00,29,11.8,5.9,2.89,surge
+166,Morningside Heights,Manhattan,2023-06-15 18:00:00,48,28.1,6.9,2.89,surge
+233,UN/Turtle Bay South,Manhattan,2023-06-02 18:00:00,214,110.7,35.7,2.89,surge
+148,Lower East Side,Manhattan,2023-07-04 00:00:00,58,25.9,11.1,2.89,surge
+186,Penn Station/Madison Sq West,Manhattan,2023-06-25 07:00:00,62,34.2,9.6,2.89,surge
+170,Murray Hill,Manhattan,2023-07-04 10:00:00,88,181.2,32.3,-2.89,drop
+238,Upper West Side North,Manhattan,2023-08-29 06:00:00,110,50.3,20.7,2.89,surge
+249,West Village,Manhattan,2023-07-04 22:00:00,59,168.7,38.0,-2.89,drop
+166,Morningside Heights,Manhattan,2023-06-03 12:00:00,38,23.4,5.1,2.89,surge
+262,Yorkville East,Manhattan,2023-06-15 12:00:00,150,96.1,18.7,2.89,surge
+236,Upper East Side North,Manhattan,2023-06-10 23:00:00,114,51.3,21.7,2.89,surge
+48,Clinton East,Manhattan,2023-06-23 01:00:00,154,85.0,23.9,2.89,surge
+238,Upper West Side North,Manhattan,2023-06-16 00:00:00,29,14.0,5.2,2.88,surge
+239,Upper West Side South,Manhattan,2023-06-12 20:00:00,198,108.8,31.0,2.88,surge
+68,East Chelsea,Manhattan,2023-07-04 10:00:00,52,116.7,22.5,-2.88,drop
+161,Midtown Center,Manhattan,2023-07-04 08:00:00,30,135.7,36.7,-2.88,drop
+70,East Elmhurst,Queens,2023-07-08 21:00:00,52,17.8,11.9,2.88,surge
+107,Gramercy,Manhattan,2023-06-19 01:00:00,28,12.5,5.4,2.88,surge
+249,West Village,Manhattan,2023-07-04 08:00:00,7,69.8,21.8,-2.88,drop
+158,Meatpacking/West Village West,Manhattan,2023-06-30 16:00:00,25,41.9,5.9,-2.88,drop
+162,Midtown East,Manhattan,2023-07-04 10:00:00,83,206.2,42.9,-2.88,drop
+166,Morningside Heights,Manhattan,2023-06-05 19:00:00,42,17.5,8.5,2.88,surge
+263,Yorkville West,Manhattan,2023-06-03 21:00:00,166,96.2,24.2,2.88,surge
+239,Upper West Side South,Manhattan,2023-06-05 21:00:00,199,108.5,31.4,2.88,surge
+229,Sutton Place/Turtle Bay North,Manhattan,2023-06-16 05:00:00,24,13.1,3.8,2.88,surge
+164,Midtown South,Manhattan,2023-07-04 18:00:00,81,193.7,39.2,-2.88,drop
+114,Greenwich Village South,Manhattan,2023-06-19 01:00:00,60,24.8,12.2,2.88,surge
+262,Yorkville East,Manhattan,2023-07-04 10:00:00,38,99.2,21.2,-2.88,drop
+161,Midtown Center,Manhattan,2023-07-04 17:00:00,175,472.3,103.2,-2.88,drop
+144,Little Italy/NoLiTa,Manhattan,2023-07-04 00:00:00,38,13.8,8.4,2.88,surge
+140,Lenox Hill East,Manhattan,2023-06-01 20:00:00,133,88.0,15.7,2.87,surge
+231,TriBeCa/Civic Center,Manhattan,2023-07-04 12:00:00,23,65.5,14.8,-2.87,drop
+41,Central Harlem,Manhattan,2023-06-03 13:00:00,46,17.4,10.0,2.87,surge
+50,Clinton West,Manhattan,2023-07-02 10:00:00,15,44.0,10.1,-2.87,drop
+48,Clinton East,Manhattan,2023-05-31 23:00:00,1,162.8,56.3,-2.87,drop
+262,Yorkville East,Manhattan,2023-06-12 19:00:00,100,47.7,18.3,2.86,surge
+261,World Trade Center,Manhattan,2023-06-22 08:00:00,32,12.7,6.8,2.86,surge
+107,Gramercy,Manhattan,2023-07-04 08:00:00,16,100.5,29.6,-2.86,drop
+158,Meatpacking/West Village West,Manhattan,2023-06-12 19:00:00,75,46.2,10.0,2.86,surge
+233,UN/Turtle Bay South,Manhattan,2023-06-02 19:00:00,178,100.8,27.0,2.86,surge
+237,Upper East Side South,Manhattan,2023-07-04 13:00:00,113,354.2,84.2,-2.86,drop
+140,Lenox Hill East,Manhattan,2023-07-04 15:00:00,44,171.8,44.7,-2.86,drop
+166,Morningside Heights,Manhattan,2023-08-03 15:00:00,82,38.1,15.3,2.86,surge
+237,Upper East Side South,Manhattan,2023-07-04 12:00:00,97,356.8,90.9,-2.86,drop
+186,Penn Station/Madison Sq West,Manhattan,2023-06-19 18:00:00,328,207.7,42.1,2.86,surge
+238,Upper West Side North,Manhattan,2023-06-02 21:00:00,106,59.5,16.3,2.86,surge
+142,Lincoln Square East,Manhattan,2023-07-04 13:00:00,81,170.9,31.4,-2.86,drop
+88,Financial District South,Manhattan,2023-07-17 14:00:00,32,18.0,4.9,2.85,surge
+79,East Village,Manhattan,2023-06-19 02:00:00,60,24.2,12.6,2.85,surge
+186,Penn Station/Madison Sq West,Manhattan,2023-08-08 02:00:00,43,16.4,9.3,2.85,surge
+161,Midtown Center,Manhattan,2023-07-04 10:00:00,106,212.2,37.2,-2.85,drop
+24,Bloomingdale,Manhattan,2023-06-01 19:00:00,24,11.7,4.3,2.85,surge
+68,East Chelsea,Manhattan,2023-07-04 17:00:00,105,171.9,23.5,-2.85,drop
+142,Lincoln Square East,Manhattan,2023-06-22 09:00:00,231,156.2,26.3,2.85,surge
+166,Morningside Heights,Manhattan,2023-06-02 07:00:00,32,15.0,6.0,2.85,surge
+261,World Trade Center,Manhattan,2023-07-22 20:00:00,59,29.8,10.2,2.85,surge
+249,West Village,Manhattan,2023-07-05 19:00:00,70,115.2,15.9,-2.85,drop
+170,Murray Hill,Manhattan,2023-07-04 07:00:00,13,96.2,29.1,-2.85,drop
+68,East Chelsea,Manhattan,2023-07-04 08:00:00,15,85.5,24.7,-2.85,drop
+262,Yorkville East,Manhattan,2023-06-16 13:00:00,146,77.5,24.1,2.84,surge
+234,Union Sq,Manhattan,2023-07-04 01:00:00,33,13.4,6.9,2.84,surge
+237,Upper East Side South,Manhattan,2023-07-04 08:00:00,24,221.2,69.3,-2.84,drop
+162,Midtown East,Manhattan,2023-07-04 08:00:00,34,194.7,56.6,-2.84,drop
+229,Sutton Place/Turtle Bay North,Manhattan,2023-07-04 10:00:00,56,113.6,20.3,-2.84,drop
+236,Upper East Side North,Manhattan,2023-07-04 08:00:00,21,289.5,94.7,-2.84,drop
+233,UN/Turtle Bay South,Manhattan,2023-06-19 22:00:00,64,34.8,10.3,2.84,surge
+237,Upper East Side South,Manhattan,2023-10-16 15:00:00,1,299.0,104.9,-2.84,drop
+229,Sutton Place/Turtle Bay North,Manhattan,2023-07-04 12:00:00,53,122.5,24.5,-2.84,drop
+79,East Village,Manhattan,2023-06-13 23:00:00,200,115.5,29.9,2.83,surge
+246,West Chelsea/Hudson Yards,Manhattan,2023-06-23 03:00:00,52,23.0,10.2,2.83,surge
+170,Murray Hill,Manhattan,2023-08-29 00:00:00,47,23.9,8.1,2.83,surge
+100,Garment District,Manhattan,2023-07-04 09:00:00,36,83.6,16.8,-2.83,drop
+132,JFK Airport,Queens,2023-09-01 00:00:00,2,197.6,69.1,-2.83,drop
+132,JFK Airport,Queens,2023-06-03 11:00:00,231,135.3,33.8,2.83,surge
+170,Murray Hill,Manhattan,2023-07-04 11:00:00,109,183.7,26.4,-2.83,drop
+70,East Elmhurst,Queens,2023-07-28 00:00:00,51,15.8,12.5,2.83,surge
+140,Lenox Hill East,Manhattan,2023-07-04 08:00:00,30,153.6,43.8,-2.82,drop
+68,East Chelsea,Manhattan,2023-06-19 02:00:00,54,15.3,13.7,2.82,surge
+249,West Village,Manhattan,2023-07-04 21:00:00,72,169.8,34.7,-2.82,drop
+74,East Harlem North,Manhattan,2023-06-04 17:00:00,31,13.5,6.2,2.82,surge
+142,Lincoln Square East,Manhattan,2023-06-11 00:00:00,264,104.3,56.6,2.82,surge
+140,Lenox Hill East,Manhattan,2023-06-03 14:00:00,118,76.2,14.8,2.82,surge
+90,Flatiron,Manhattan,2023-06-05 22:00:00,94,55.2,13.7,2.82,surge
+164,Midtown South,Manhattan,2023-07-24 23:00:00,165,72.2,33.0,2.82,surge
+107,Gramercy,Manhattan,2023-08-04 16:00:00,188,117.2,25.1,2.82,surge
+138,LaGuardia Airport,Queens,2023-07-04 08:00:00,42,155.1,40.1,-2.82,drop
+170,Murray Hill,Manhattan,2023-07-03 11:00:00,91,160.0,24.5,-2.82,drop
+143,Lincoln Square West,Manhattan,2023-07-04 08:00:00,8,81.8,26.2,-2.82,drop
+43,Central Park,Manhattan,2023-06-11 16:00:00,52,157.9,37.5,-2.82,drop
+100,Garment District,Manhattan,2023-06-22 00:00:00,120,50.4,24.7,2.82,surge
+164,Midtown South,Manhattan,2023-07-04 14:00:00,81,151.2,25.0,-2.81,drop
+45,Chinatown,Manhattan,2023-06-09 19:00:00,21,10.4,3.8,2.81,surge
+132,JFK Airport,Queens,2023-06-03 13:00:00,353,238.3,40.8,2.81,surge
+162,Midtown East,Manhattan,2023-07-04 17:00:00,154,328.1,61.9,-2.81,drop
+164,Midtown South,Manhattan,2023-06-02 16:00:00,182,132.8,17.5,2.81,surge
+237,Upper East Side South,Manhattan,2023-06-04 22:00:00,193,79.5,40.4,2.81,surge
+79,East Village,Manhattan,2023-06-16 13:00:00,126,75.6,18.0,2.81,surge
+107,Gramercy,Manhattan,2023-07-04 09:00:00,26,110.2,29.9,-2.81,drop
+246,West Chelsea/Hudson Yards,Manhattan,2023-07-04 18:00:00,49,148.6,35.5,-2.81,drop
+141,Lenox Hill West,Manhattan,2023-07-04 12:00:00,50,141.7,32.7,-2.8,drop
+234,Union Sq,Manhattan,2023-06-12 19:00:00,298,164.2,47.9,2.8,surge
+107,Gramercy,Manhattan,2023-06-10 13:00:00,195,115.6,28.4,2.8,surge
+162,Midtown East,Manhattan,2023-07-02 20:00:00,89,166.1,27.5,-2.8,drop
+125,Hudson Sq,Manhattan,2023-08-04 15:00:00,3,16.9,5.0,-2.8,drop
+262,Yorkville East,Manhattan,2023-06-02 18:00:00,160,85.4,26.6,2.8,surge
+163,Midtown North,Manhattan,2023-06-03 21:00:00,188,113.5,26.6,2.8,surge
+246,West Chelsea/Hudson Yards,Manhattan,2023-06-09 19:00:00,212,126.8,30.4,2.8,surge
+170,Murray Hill,Manhattan,2023-07-04 13:00:00,87,199.2,40.2,-2.8,drop
+164,Midtown South,Manhattan,2023-06-21 00:00:00,183,73.9,38.9,2.8,surge
+162,Midtown East,Manhattan,2023-07-04 07:00:00,19,132.1,40.4,-2.8,drop
+114,Greenwich Village South,Manhattan,2023-07-05 19:00:00,40,66.2,9.4,-2.8,drop
+166,Morningside Heights,Manhattan,2023-06-22 09:00:00,62,28.0,12.1,2.8,surge
+79,East Village,Manhattan,2023-06-25 18:00:00,150,93.0,20.3,2.8,surge
+186,Penn Station/Madison Sq West,Manhattan,2023-06-22 23:00:00,233,124.8,38.7,2.79,surge
+229,Sutton Place/Turtle Bay North,Manhattan,2023-06-02 19:00:00,183,126.1,20.4,2.79,surge
+231,TriBeCa/Civic Center,Manhattan,2023-06-09 22:00:00,123,80.3,15.3,2.79,surge
+107,Gramercy,Manhattan,2023-06-12 19:00:00,154,95.2,21.1,2.79,surge
+246,West Chelsea/Hudson Yards,Manhattan,2023-06-22 02:00:00,87,47.0,14.4,2.79,surge
+166,Morningside Heights,Manhattan,2023-06-07 16:00:00,49,27.8,7.6,2.79,surge
+186,Penn Station/Madison Sq West,Manhattan,2023-06-25 17:00:00,73,208.8,48.7,-2.79,drop
+90,Flatiron,Manhattan,2023-06-15 14:00:00,127,85.1,15.0,2.79,surge
+137,Kips Bay,Manhattan,2023-07-05 00:00:00,47,23.9,8.3,2.79,surge
+239,Upper West Side South,Manhattan,2023-06-14 22:00:00,315,134.1,64.8,2.79,surge
+262,Yorkville East,Manhattan,2023-06-28 08:00:00,59,145.5,31.0,-2.79,drop
+87,Financial District North,Manhattan,2023-08-07 20:00:00,52,29.7,8.0,2.79,surge
+229,Sutton Place/Turtle Bay North,Manhattan,2023-06-16 14:00:00,155,105.8,17.7,2.78,surge
+236,Upper East Side North,Manhattan,2023-07-04 09:00:00,46,287.5,86.8,-2.78,drop
+90,Flatiron,Manhattan,2023-06-17 10:00:00,102,68.5,12.1,2.78,surge
+107,Gramercy,Manhattan,2023-07-04 10:00:00,40,87.8,17.2,-2.78,drop
+186,Penn Station/Madison Sq West,Manhattan,2023-07-02 21:00:00,142,267.7,45.3,-2.78,drop
+264,N/A,Unknown,2023-06-03 20:00:00,66,43.4,8.1,2.78,surge
+262,Yorkville East,Manhattan,2023-07-04 07:00:00,23,105.8,29.7,-2.78,drop
+237,Upper East Side South,Manhattan,2023-06-09 20:00:00,268,171.4,34.8,2.78,surge
+141,Lenox Hill West,Manhattan,2023-06-04 17:00:00,152,107.8,15.9,2.78,surge
+162,Midtown East,Manhattan,2023-07-04 16:00:00,127,259.9,47.7,-2.78,drop
+114,Greenwich Village South,Manhattan,2023-07-04 02:00:00,34,13.5,7.4,2.78,surge
+74,East Harlem North,Manhattan,2023-06-04 09:00:00,21,10.9,3.6,2.77,surge
+142,Lincoln Square East,Manhattan,2023-06-25 22:00:00,209,109.1,36.1,2.77,surge
+209,Seaport,Manhattan,2023-07-27 22:00:00,48,22.6,9.1,2.77,surge
+236,Upper East Side North,Manhattan,2023-06-03 09:00:00,214,112.5,36.6,2.77,surge
+100,Garment District,Manhattan,2023-07-04 07:00:00,18,99.0,29.3,-2.77,drop
+229,Sutton Place/Turtle Bay North,Manhattan,2023-06-12 20:00:00,124,82.0,15.1,2.77,surge
+100,Garment District,Manhattan,2023-07-04 05:00:00,10,45.4,12.8,-2.77,drop
+231,TriBeCa/Civic Center,Manhattan,2023-07-05 17:00:00,63,105.0,15.1,-2.77,drop
+231,TriBeCa/Civic Center,Manhattan,2023-07-04 19:00:00,27,106.8,28.8,-2.77,drop
+233,UN/Turtle Bay South,Manhattan,2023-07-04 23:00:00,69,28.2,14.7,2.77,surge
+113,Greenwich Village North,Manhattan,2023-06-12 19:00:00,136,80.6,20.0,2.77,surge
+48,Clinton East,Manhattan,2023-06-25 22:00:00,229,124.1,37.9,2.77,surge
+141,Lenox Hill West,Manhattan,2023-06-11 01:00:00,82,47.2,12.5,2.77,surge
+41,Central Harlem,Manhattan,2023-08-01 13:00:00,23,10.3,4.6,2.77,surge
+234,Union Sq,Manhattan,2023-06-02 18:00:00,312,200.4,40.3,2.77,surge
+236,Upper East Side North,Manhattan,2023-07-22 01:00:00,30,14.6,5.6,2.76,surge
+164,Midtown South,Manhattan,2023-06-23 00:00:00,214,100.8,41.0,2.76,surge
+237,Upper East Side South,Manhattan,2023-06-04 21:00:00,210,112.2,35.5,2.76,surge
+143,Lincoln Square West,Manhattan,2023-07-04 09:00:00,13,75.8,22.7,-2.76,drop
+234,Union Sq,Manhattan,2023-07-04 08:00:00,6,80.1,26.8,-2.76,drop
+162,Midtown East,Manhattan,2023-08-30 00:00:00,81,45.5,12.9,2.76,surge
+263,Yorkville West,Manhattan,2023-07-04 12:00:00,45,101.3,20.4,-2.76,drop
+238,Upper West Side North,Manhattan,2023-06-07 15:00:00,235,119.5,41.8,2.76,surge
+45,Chinatown,Manhattan,2023-06-02 18:00:00,20,12.9,2.6,2.76,surge
+231,TriBeCa/Civic Center,Manhattan,2023-07-02 02:00:00,19,49.6,11.1,-2.76,drop
+114,Greenwich Village South,Manhattan,2023-07-04 22:00:00,25,105.0,29.0,-2.76,drop
+238,Upper West Side North,Manhattan,2023-06-02 17:00:00,201,115.2,31.1,2.76,surge
+141,Lenox Hill West,Manhattan,2023-07-04 06:00:00,12,45.0,12.0,-2.76,drop
+170,Murray Hill,Manhattan,2023-07-04 18:00:00,121,269.2,53.7,-2.76,drop
+170,Murray Hill,Manhattan,2023-07-04 23:00:00,169,90.4,28.6,2.75,surge
+148,Lower East Side,Manhattan,2023-06-09 23:00:00,233,156.5,27.8,2.75,surge
+164,Midtown South,Manhattan,2023-07-04 12:00:00,61,138.1,28.0,-2.75,drop
+70,East Elmhurst,Queens,2023-06-06 23:00:00,58,27.8,10.9,2.75,surge
+249,West Village,Manhattan,2023-07-05 23:00:00,83,171.7,32.3,-2.75,drop
+230,Times Sq/Theatre District,Manhattan,2023-06-16 04:00:00,50,25.7,8.8,2.75,surge
+162,Midtown East,Manhattan,2023-06-25 01:00:00,74,41.1,12.0,2.75,surge
+234,Union Sq,Manhattan,2023-06-09 20:00:00,207,160.2,17.0,2.75,surge
+100,Garment District,Manhattan,2023-07-13 14:00:00,135,95.2,14.5,2.75,surge
+143,Lincoln Square West,Manhattan,2023-06-09 22:00:00,84,37.9,16.7,2.75,surge
+163,Midtown North,Manhattan,2023-07-04 07:00:00,8,48.2,14.6,-2.75,drop
+233,UN/Turtle Bay South,Manhattan,2023-08-31 10:00:00,41,84.6,15.8,-2.75,drop
+41,Central Harlem,Manhattan,2023-06-22 08:00:00,42,17.4,8.9,2.75,surge
+162,Midtown East,Manhattan,2023-07-04 05:00:00,7,23.2,5.9,-2.75,drop
+148,Lower East Side,Manhattan,2023-06-05 23:00:00,58,32.0,9.5,2.75,surge
+231,TriBeCa/Civic Center,Manhattan,2023-07-04 16:00:00,23,76.8,19.6,-2.75,drop
+230,Times Sq/Theatre District,Manhattan,2023-08-13 19:00:00,66,127.0,22.2,-2.75,drop
+234,Union Sq,Manhattan,2023-07-04 17:00:00,87,213.5,45.9,-2.75,drop
+162,Midtown East,Manhattan,2023-07-22 20:00:00,242,149.8,33.6,2.75,surge
+230,Times Sq/Theatre District,Manhattan,2023-06-25 08:00:00,139,85.9,19.4,2.74,surge
+164,Midtown South,Manhattan,2023-06-22 00:00:00,200,86.7,41.3,2.74,surge
+41,Central Harlem,Manhattan,2023-06-02 17:00:00,34,17.6,6.0,2.74,surge
+79,East Village,Manhattan,2023-06-12 19:00:00,122,77.6,16.2,2.74,surge
+125,Hudson Sq,Manhattan,2023-06-12 18:00:00,42,27.5,5.3,2.74,surge
+50,Clinton West,Manhattan,2023-06-16 01:00:00,28,11.8,5.9,2.74,surge
+239,Upper West Side South,Manhattan,2023-06-16 14:00:00,305,195.8,39.9,2.74,surge
+186,Penn Station/Madison Sq West,Manhattan,2023-07-14 14:00:00,223,172.8,18.3,2.74,surge
+166,Morningside Heights,Manhattan,2023-06-03 16:00:00,53,21.9,11.3,2.74,surge
+161,Midtown Center,Manhattan,2023-06-29 16:00:00,168,426.2,94.1,-2.74,drop
+246,West Chelsea/Hudson Yards,Manhattan,2023-07-04 01:00:00,26,10.2,5.8,2.74,surge
+233,UN/Turtle Bay South,Manhattan,2023-07-04 10:00:00,41,75.7,12.7,-2.74,drop
+246,West Chelsea/Hudson Yards,Manhattan,2023-06-02 18:00:00,234,139.5,34.6,2.73,surge
+79,East Village,Manhattan,2023-06-16 15:00:00,112,79.2,12.0,2.73,surge
+68,East Chelsea,Manhattan,2023-06-30 04:00:00,29,14.8,5.2,2.73,surge
+249,West Village,Manhattan,2023-06-12 19:00:00,142,87.5,19.9,2.73,surge
+79,East Village,Manhattan,2023-06-25 22:00:00,165,101.1,23.4,2.73,surge
+140,Lenox Hill East,Manhattan,2023-08-22 00:00:00,24,14.4,3.5,2.73,surge
+246,West Chelsea/Hudson Yards,Manhattan,2023-06-26 10:00:00,96,51.3,16.3,2.73,surge
+233,UN/Turtle Bay South,Manhattan,2023-07-04 09:00:00,20,73.2,19.4,-2.73,drop
+74,East Harlem North,Manhattan,2023-06-22 08:00:00,31,14.4,6.1,2.73,surge
+141,Lenox Hill West,Manhattan,2023-07-04 18:00:00,75,168.3,34.2,-2.73,drop
+164,Midtown South,Manhattan,2023-07-04 07:00:00,13,43.9,11.3,-2.73,drop
+264,N/A,Unknown,2023-06-02 17:00:00,93,52.8,14.7,2.73,surge
+24,Bloomingdale,Manhattan,2023-08-29 08:00:00,57,23.9,12.1,2.73,surge
+50,Clinton West,Manhattan,2023-06-25 22:00:00,49,19.7,10.7,2.73,surge
+140,Lenox Hill East,Manhattan,2023-07-04 09:00:00,30,147.2,43.0,-2.73,drop
+170,Murray Hill,Manhattan,2023-06-23 00:00:00,143,67.3,27.8,2.73,surge
+166,Morningside Heights,Manhattan,2023-06-03 11:00:00,46,21.4,9.0,2.72,surge
+48,Clinton East,Manhattan,2023-07-04 03:00:00,32,15.8,6.0,2.72,surge
+162,Midtown East,Manhattan,2023-07-03 18:00:00,139,300.2,59.2,-2.72,drop
+132,JFK Airport,Queens,2023-06-25 03:00:00,92,30.9,22.5,2.72,surge
+137,Kips Bay,Manhattan,2023-07-04 23:00:00,63,32.9,11.0,2.72,surge
+113,Greenwich Village North,Manhattan,2023-07-22 04:00:00,25,12.8,4.5,2.72,surge
+246,West Chelsea/Hudson Yards,Manhattan,2023-06-26 16:00:00,203,107.7,35.1,2.72,surge
+114,Greenwich Village South,Manhattan,2023-07-02 00:00:00,132,234.3,37.6,-2.72,drop
+158,Meatpacking/West Village West,Manhattan,2023-06-22 09:00:00,44,24.6,7.1,2.72,surge
+141,Lenox Hill West,Manhattan,2023-06-12 20:00:00,191,117.7,27.0,2.72,surge
+125,Hudson Sq,Manhattan,2023-06-12 10:00:00,34,18.1,5.9,2.72,surge
+48,Clinton East,Manhattan,2023-07-04 17:00:00,73,123.8,18.7,-2.72,drop
+229,Sutton Place/Turtle Bay North,Manhattan,2023-06-04 22:00:00,60,40.0,7.3,2.72,surge
+246,West Chelsea/Hudson Yards,Manhattan,2023-06-26 01:00:00,58,23.4,12.7,2.72,surge
+87,Financial District North,Manhattan,2023-08-21 22:00:00,43,21.5,7.9,2.72,surge
+142,Lincoln Square East,Manhattan,2023-06-22 07:00:00,188,102.4,31.5,2.72,surge
+239,Upper West Side South,Manhattan,2023-06-04 15:00:00,241,180.4,22.3,2.72,surge
+41,Central Harlem,Manhattan,2023-06-03 12:00:00,30,15.0,5.5,2.71,surge
+246,West Chelsea/Hudson Yards,Manhattan,2023-06-09 22:00:00,117,86.2,11.4,2.71,surge
+158,Meatpacking/West Village West,Manhattan,2023-06-23 03:00:00,30,12.7,6.4,2.71,surge
+144,Little Italy/NoLiTa,Manhattan,2023-06-09 12:00:00,43,27.2,5.9,2.71,surge
+48,Clinton East,Manhattan,2023-07-04 01:00:00,67,33.6,12.3,2.71,surge
+163,Midtown North,Manhattan,2023-07-04 18:00:00,113,281.8,62.2,-2.71,drop
+142,Lincoln Square East,Manhattan,2023-06-02 23:00:00,436,209.5,83.6,2.71,surge
+132,JFK Airport,Queens,2023-07-15 02:00:00,166,62.8,38.1,2.71,surge
+142,Lincoln Square East,Manhattan,2023-06-10 07:00:00,55,33.7,7.9,2.71,surge
+234,Union Sq,Manhattan,2023-06-25 16:00:00,34,114.9,29.8,-2.71,drop
+141,Lenox Hill West,Manhattan,2023-06-29 15:00:00,101,146.6,16.9,-2.71,drop
+262,Yorkville East,Manhattan,2023-06-28 09:00:00,54,134.5,29.7,-2.71,drop
+161,Midtown Center,Manhattan,2023-07-04 07:00:00,16,82.3,24.4,-2.71,drop
+186,Penn Station/Madison Sq West,Manhattan,2023-06-25 14:00:00,71,203.6,49.0,-2.71,drop
+142,Lincoln Square East,Manhattan,2023-06-03 09:00:00,147,98.4,18.0,2.71,surge
+161,Midtown Center,Manhattan,2023-07-04 09:00:00,43,186.6,53.1,-2.7,drop
+164,Midtown South,Manhattan,2023-07-04 19:00:00,62,165.2,38.2,-2.7,drop
+229,Sutton Place/Turtle Bay North,Manhattan,2023-07-04 17:00:00,62,117.7,20.6,-2.7,drop
+249,West Village,Manhattan,2023-09-01 00:00:00,1,185.8,68.4,-2.7,drop
+170,Murray Hill,Manhattan,2023-07-03 17:00:00,106,215.2,40.4,-2.7,drop
+75,East Harlem South,Manhattan,2023-07-04 09:00:00,7,31.8,9.2,-2.7,drop
+162,Midtown East,Manhattan,2023-07-03 16:00:00,109,208.8,37.0,-2.7,drop
+43,Central Park,Manhattan,2023-07-12 09:00:00,118,69.8,17.8,2.7,surge
+231,TriBeCa/Civic Center,Manhattan,2023-06-16 13:00:00,100,64.2,13.3,2.7,surge
+162,Midtown East,Manhattan,2023-07-03 19:00:00,104,251.2,54.6,-2.7,drop
+113,Greenwich Village North,Manhattan,2023-06-15 20:00:00,128,89.7,14.2,2.7,surge
+132,JFK Airport,Queens,2023-08-19 05:00:00,111,53.3,21.3,2.7,surge
+87,Financial District North,Manhattan,2023-06-02 18:00:00,77,44.0,12.2,2.7,surge
+113,Greenwich Village North,Manhattan,2023-06-25 15:00:00,23,69.5,17.2,-2.7,drop
+238,Upper West Side North,Manhattan,2023-07-04 12:00:00,38,119.9,30.4,-2.7,drop
+166,Morningside Heights,Manhattan,2023-08-29 08:00:00,76,31.5,16.5,2.7,surge
+246,West Chelsea/Hudson Yards,Manhattan,2023-07-04 09:00:00,11,47.9,13.8,-2.69,drop
+142,Lincoln Square East,Manhattan,2023-06-10 15:00:00,286,180.5,39.3,2.69,surge
+170,Murray Hill,Manhattan,2023-07-03 13:00:00,109,173.4,23.9,-2.69,drop
+132,JFK Airport,Queens,2023-07-21 06:00:00,67,157.9,33.8,-2.69,drop
+79,East Village,Manhattan,2023-07-04 10:00:00,29,51.4,8.3,-2.69,drop
+166,Morningside Heights,Manhattan,2023-08-29 10:00:00,45,21.1,8.9,2.69,surge
+238,Upper West Side North,Manhattan,2023-07-04 11:00:00,62,116.4,20.2,-2.69,drop
+48,Clinton East,Manhattan,2023-06-23 10:00:00,128,106.5,8.0,2.69,surge
+161,Midtown Center,Manhattan,2023-07-04 16:00:00,173,389.9,80.8,-2.69,drop
+234,Union Sq,Manhattan,2023-06-25 15:00:00,32,127.2,35.5,-2.69,drop
+186,Penn Station/Madison Sq West,Manhattan,2023-07-04 16:00:00,260,182.0,29.0,2.69,surge
+142,Lincoln Square East,Manhattan,2023-08-17 05:00:00,5,10.7,2.1,-2.69,drop
+79,East Village,Manhattan,2023-06-23 10:00:00,89,56.3,12.1,2.69,surge
+236,Upper East Side North,Manhattan,2023-07-04 10:00:00,68,282.2,79.6,-2.69,drop
+74,East Harlem North,Manhattan,2023-08-19 13:00:00,37,18.2,7.0,2.69,surge
+141,Lenox Hill West,Manhattan,2023-07-04 09:00:00,34,135.1,37.6,-2.69,drop
+238,Upper West Side North,Manhattan,2023-06-06 19:00:00,157,88.8,25.3,2.69,surge
+163,Midtown North,Manhattan,2023-06-04 07:00:00,44,28.6,5.7,2.69,surge
+230,Times Sq/Theatre District,Manhattan,2023-06-19 03:00:00,31,15.6,5.7,2.68,surge
+43,Central Park,Manhattan,2023-06-11 17:00:00,57,124.8,25.3,-2.68,drop
+142,Lincoln Square East,Manhattan,2023-07-04 09:00:00,42,153.5,41.6,-2.68,drop
+43,Central Park,Manhattan,2023-06-12 11:00:00,161,84.4,28.6,2.68,surge
+68,East Chelsea,Manhattan,2023-07-04 09:00:00,32,106.9,28.0,-2.68,drop
+170,Murray Hill,Manhattan,2023-07-04 16:00:00,139,225.1,32.1,-2.68,drop
+246,West Chelsea/Hudson Yards,Manhattan,2023-06-27 13:00:00,159,90.1,25.7,2.68,surge
+249,West Village,Manhattan,2023-07-01 23:00:00,196,308.7,42.1,-2.68,drop
+141,Lenox Hill West,Manhattan,2023-06-19 00:00:00,32,17.5,5.4,2.68,surge
+237,Upper East Side South,Manhattan,2023-07-04 16:00:00,95,350.5,95.3,-2.68,drop
+148,Lower East Side,Manhattan,2023-06-16 14:00:00,49,30.9,6.8,2.68,surge
+239,Upper West Side South,Manhattan,2023-07-04 12:00:00,88,175.1,32.5,-2.68,drop
+163,Midtown North,Manhattan,2023-06-02 18:00:00,366,226.2,52.1,2.68,surge
+163,Midtown North,Manhattan,2023-07-04 17:00:00,99,246.7,55.0,-2.68,drop
+48,Clinton East,Manhattan,2023-06-16 14:00:00,131,99.2,11.8,2.68,surge
+233,UN/Turtle Bay South,Manhattan,2023-07-04 13:00:00,37,83.2,17.2,-2.68,drop
+186,Penn Station/Madison Sq West,Manhattan,2023-06-19 15:00:00,310,204.2,39.4,2.68,surge
+163,Midtown North,Manhattan,2023-07-04 10:00:00,75,133.5,22.0,-2.67,drop
+231,TriBeCa/Civic Center,Manhattan,2023-06-02 18:00:00,163,101.2,23.2,2.67,surge
+113,Greenwich Village North,Manhattan,2023-06-25 21:00:00,105,63.2,15.7,2.67,surge
+231,TriBeCa/Civic Center,Manhattan,2023-06-15 21:00:00,183,106.1,28.8,2.67,surge
+13,Battery Park City,Manhattan,2023-06-09 15:00:00,72,47.5,9.2,2.67,surge
+113,Greenwich Village North,Manhattan,2023-06-12 20:00:00,120,71.2,18.3,2.67,surge
+234,Union Sq,Manhattan,2023-07-04 13:00:00,58,147.6,33.5,-2.67,drop
+79,East Village,Manhattan,2023-06-19 01:00:00,66,33.0,12.3,2.67,surge
+158,Meatpacking/West Village West,Manhattan,2023-06-05 23:00:00,73,30.0,16.1,2.67,surge
+246,West Chelsea/Hudson Yards,Manhattan,2023-07-04 19:00:00,52,133.2,30.5,-2.67,drop
+114,Greenwich Village South,Manhattan,2023-07-04 20:00:00,24,74.5,18.9,-2.67,drop
+90,Flatiron,Manhattan,2023-06-15 18:00:00,197,138.9,21.8,2.67,surge
+262,Yorkville East,Manhattan,2023-07-04 22:00:00,39,17.2,8.2,2.67,surge
+162,Midtown East,Manhattan,2023-06-16 12:00:00,266,198.2,25.4,2.67,surge
+231,TriBeCa/Civic Center,Manhattan,2023-07-04 13:00:00,27,66.2,14.7,-2.67,drop
+246,West Chelsea/Hudson Yards,Manhattan,2023-06-26 15:00:00,202,98.6,38.7,2.67,surge
+132,JFK Airport,Queens,2023-07-20 03:00:00,43,17.1,9.7,2.67,surge
+162,Midtown East,Manhattan,2023-07-04 18:00:00,157,356.7,74.8,-2.67,drop
+79,East Village,Manhattan,2023-06-05 17:00:00,96,59.8,13.6,2.67,surge
+261,World Trade Center,Manhattan,2023-06-26 10:00:00,29,18.8,3.8,2.67,surge
+231,TriBeCa/Civic Center,Manhattan,2023-07-04 17:00:00,30,99.9,26.2,-2.67,drop
+186,Penn Station/Madison Sq West,Manhattan,2023-08-02 01:00:00,70,35.6,12.9,2.66,surge
+246,West Chelsea/Hudson Yards,Manhattan,2023-06-26 12:00:00,121,65.5,20.8,2.66,surge
+237,Upper East Side South,Manhattan,2023-07-04 15:00:00,123,386.7,99.0,-2.66,drop
+140,Lenox Hill East,Manhattan,2023-07-04 17:00:00,49,148.9,37.6,-2.66,drop
+144,Little Italy/NoLiTa,Manhattan,2023-07-04 22:00:00,18,60.4,15.9,-2.66,drop
+107,Gramercy,Manhattan,2023-07-04 07:00:00,16,74.8,22.2,-2.66,drop
+137,Kips Bay,Manhattan,2023-06-12 19:00:00,91,61.4,11.1,2.66,surge
+13,Battery Park City,Manhattan,2023-07-04 18:00:00,35,72.8,14.2,-2.66,drop
+100,Garment District,Manhattan,2023-07-04 06:00:00,16,89.4,27.5,-2.66,drop
+238,Upper West Side North,Manhattan,2023-08-04 11:00:00,212,129.4,31.0,2.66,surge
+236,Upper East Side North,Manhattan,2023-06-07 16:00:00,430,263.3,62.6,2.66,surge
+140,Lenox Hill East,Manhattan,2023-06-29 17:00:00,95,164.7,26.2,-2.66,drop
+239,Upper West Side South,Manhattan,2023-07-04 07:00:00,22,98.4,28.7,-2.66,drop
+239,Upper West Side South,Manhattan,2023-06-03 20:00:00,181,113.1,25.6,2.66,surge
+151,Manhattan Valley,Manhattan,2023-06-21 13:00:00,85,53.5,11.9,2.66,surge
+142,Lincoln Square East,Manhattan,2023-06-12 20:00:00,284,165.6,44.5,2.66,surge
+148,Lower East Side,Manhattan,2023-06-20 18:00:00,59,31.6,10.3,2.66,surge
+70,East Elmhurst,Queens,2023-07-09 09:00:00,27,12.7,5.4,2.66,surge
+79,East Village,Manhattan,2023-07-02 01:00:00,206,454.9,93.7,-2.66,drop
+48,Clinton East,Manhattan,2023-06-25 18:00:00,208,155.2,19.8,2.66,surge
+238,Upper West Side North,Manhattan,2023-06-05 14:00:00,165,102.9,23.3,2.66,surge
+114,Greenwich Village South,Manhattan,2023-06-29 17:00:00,84,57.1,10.1,2.66,surge
+48,Clinton East,Manhattan,2023-06-25 03:00:00,177,107.4,26.2,2.66,surge
+50,Clinton West,Manhattan,2023-06-25 21:00:00,43,24.6,6.9,2.66,surge
+113,Greenwich Village North,Manhattan,2023-06-26 00:00:00,39,17.2,8.2,2.66,surge
+230,Times Sq/Theatre District,Manhattan,2023-06-02 18:00:00,344,212.0,49.9,2.65,surge
+88,Financial District South,Manhattan,2023-07-10 16:00:00,12,24.3,4.6,-2.65,drop
+186,Penn Station/Madison Sq West,Manhattan,2023-06-25 11:00:00,112,179.2,25.3,-2.65,drop
+79,East Village,Manhattan,2023-05-31 23:00:00,2,135.1,50.2,-2.65,drop
+236,Upper East Side North,Manhattan,2023-07-22 20:00:00,271,136.6,50.7,2.65,surge
+230,Times Sq/Theatre District,Manhattan,2023-08-29 06:00:00,63,31.9,11.7,2.65,surge
+239,Upper West Side South,Manhattan,2023-06-04 08:00:00,82,55.7,9.9,2.65,surge
+48,Clinton East,Manhattan,2023-06-25 23:00:00,206,100.2,40.0,2.65,surge
+138,LaGuardia Airport,Queens,2023-07-08 21:00:00,160,78.8,30.7,2.65,surge
+141,Lenox Hill West,Manhattan,2023-07-04 10:00:00,62,128.4,25.1,-2.65,drop
+151,Manhattan Valley,Manhattan,2023-06-15 14:00:00,73,52.1,7.9,2.65,surge
+230,Times Sq/Theatre District,Manhattan,2023-06-10 13:00:00,81,144.6,24.0,-2.65,drop
+132,JFK Airport,Queens,2023-07-15 01:00:00,233,127.7,39.7,2.65,surge
+186,Penn Station/Madison Sq West,Manhattan,2023-06-25 12:00:00,90,196.2,40.1,-2.65,drop
+138,LaGuardia Airport,Queens,2023-06-15 00:00:00,242,98.6,54.2,2.65,surge
+114,Greenwich Village South,Manhattan,2023-06-12 19:00:00,91,55.8,13.3,2.65,surge
+68,East Chelsea,Manhattan,2023-06-22 01:00:00,63,34.8,10.7,2.65,surge
+43,Central Park,Manhattan,2023-06-25 22:00:00,73,28.0,17.0,2.65,surge
+13,Battery Park City,Manhattan,2023-07-04 20:00:00,14,43.0,11.0,-2.65,drop
+231,TriBeCa/Civic Center,Manhattan,2023-06-12 23:00:00,54,28.2,9.7,2.65,surge
+143,Lincoln Square West,Manhattan,2023-06-04 15:00:00,93,49.9,16.3,2.65,surge
+239,Upper West Side South,Manhattan,2023-06-09 22:00:00,212,127.2,32.0,2.65,surge
+230,Times Sq/Theatre District,Manhattan,2023-08-13 16:00:00,92,161.5,26.2,-2.65,drop
+234,Union Sq,Manhattan,2023-06-07 08:00:00,138,83.2,20.7,2.65,surge
+163,Midtown North,Manhattan,2023-07-15 19:00:00,271,181.5,33.8,2.65,surge
+229,Sutton Place/Turtle Bay North,Manhattan,2023-06-04 10:00:00,117,76.9,15.1,2.65,surge
+231,TriBeCa/Civic Center,Manhattan,2023-06-13 22:00:00,182,86.1,36.4,2.64,surge
+140,Lenox Hill East,Manhattan,2023-06-29 16:00:00,78,157.4,30.1,-2.64,drop
+186,Penn Station/Madison Sq West,Manhattan,2023-06-21 00:00:00,238,81.4,59.3,2.64,surge
+48,Clinton East,Manhattan,2023-06-26 00:00:00,156,76.1,30.3,2.64,surge
+230,Times Sq/Theatre District,Manhattan,2023-06-24 08:00:00,121,78.9,15.9,2.64,surge
+238,Upper West Side North,Manhattan,2023-06-01 09:00:00,185,135.4,18.8,2.64,surge
+48,Clinton East,Manhattan,2023-06-25 05:00:00,51,26.8,9.2,2.64,surge
+100,Garment District,Manhattan,2023-07-24 23:00:00,95,42.6,19.8,2.64,surge
+132,JFK Airport,Queens,2023-07-14 08:00:00,72,149.5,29.3,-2.64,drop
+234,Union Sq,Manhattan,2023-07-04 11:00:00,73,120.1,17.8,-2.64,drop
+137,Kips Bay,Manhattan,2023-07-26 23:00:00,74,36.5,14.2,2.64,surge
+162,Midtown East,Manhattan,2023-09-25 07:00:00,1,98.2,36.8,-2.64,drop
+237,Upper East Side South,Manhattan,2023-06-04 10:00:00,199,113.9,32.3,2.64,surge
+161,Midtown Center,Manhattan,2023-06-29 17:00:00,293,474.9,68.9,-2.64,drop
+158,Meatpacking/West Village West,Manhattan,2023-06-21 03:00:00,21,12.2,3.3,2.64,surge
+75,East Harlem South,Manhattan,2023-07-10 08:00:00,73,35.5,14.2,2.64,surge
+148,Lower East Side,Manhattan,2023-06-02 18:00:00,68,40.1,10.6,2.64,surge
+148,Lower East Side,Manhattan,2023-06-07 00:00:00,64,39.8,9.2,2.64,surge
+132,JFK Airport,Queens,2023-06-07 07:00:00,239,143.8,36.1,2.64,surge
+230,Times Sq/Theatre District,Manhattan,2023-06-12 20:00:00,327,175.4,57.5,2.64,surge
+114,Greenwich Village South,Manhattan,2023-07-04 19:00:00,25,62.1,14.1,-2.63,drop
+246,West Chelsea/Hudson Yards,Manhattan,2023-06-26 14:00:00,182,90.1,34.9,2.63,surge
+90,Flatiron,Manhattan,2023-06-17 21:00:00,161,100.0,23.2,2.63,surge
+137,Kips Bay,Manhattan,2023-07-04 07:00:00,20,41.5,8.2,-2.63,drop
+249,West Village,Manhattan,2023-07-04 15:00:00,27,64.9,14.4,-2.63,drop
+230,Times Sq/Theatre District,Manhattan,2023-07-04 11:00:00,221,163.9,21.7,2.63,surge
+237,Upper East Side South,Manhattan,2023-07-04 06:00:00,7,45.2,14.5,-2.63,drop
+90,Flatiron,Manhattan,2023-06-17 13:00:00,153,99.9,20.2,2.63,surge
+170,Murray Hill,Manhattan,2023-07-04 09:00:00,35,173.7,52.7,-2.63,drop
+13,Battery Park City,Manhattan,2023-07-04 08:00:00,3,32.0,11.0,-2.63,drop
+239,Upper West Side South,Manhattan,2023-06-28 08:00:00,81,152.9,27.3,-2.63,drop
+231,TriBeCa/Civic Center,Manhattan,2023-07-04 08:00:00,2,54.7,20.0,-2.63,drop
+132,JFK Airport,Queens,2023-08-25 07:00:00,230,167.5,23.8,2.63,surge
+170,Murray Hill,Manhattan,2023-05-31 23:00:00,1,84.8,31.9,-2.63,drop
+170,Murray Hill,Manhattan,2023-07-03 12:00:00,122,170.1,18.3,-2.63,drop
+238,Upper West Side North,Manhattan,2023-06-04 17:00:00,140,82.6,21.8,2.63,surge
+231,TriBeCa/Civic Center,Manhattan,2023-06-03 09:00:00,48,26.1,8.3,2.63,surge
+239,Upper West Side South,Manhattan,2023-06-15 00:00:00,63,29.9,12.6,2.63,surge
+140,Lenox Hill East,Manhattan,2023-06-17 09:00:00,98,62.5,13.5,2.63,surge
+143,Lincoln Square West,Manhattan,2023-08-02 21:00:00,81,42.7,14.5,2.63,surge
+211,SoHo,Manhattan,2023-06-19 00:00:00,28,13.1,5.7,2.63,surge
+237,Upper East Side South,Manhattan,2023-07-04 17:00:00,107,360.8,96.5,-2.63,drop
+246,West Chelsea/Hudson Yards,Manhattan,2023-06-25 00:00:00,116,69.0,17.9,2.63,surge
+246,West Chelsea/Hudson Yards,Manhattan,2023-06-22 03:00:00,71,40.6,11.6,2.63,surge
+186,Penn Station/Madison Sq West,Manhattan,2023-06-25 13:00:00,98,196.4,37.3,-2.63,drop
+164,Midtown South,Manhattan,2023-07-04 21:00:00,59,150.2,34.7,-2.63,drop
+151,Manhattan Valley,Manhattan,2023-07-21 11:00:00,29,50.1,8.0,-2.63,drop
+262,Yorkville East,Manhattan,2023-07-04 12:00:00,38,89.6,19.6,-2.63,drop
+238,Upper West Side North,Manhattan,2023-07-04 13:00:00,65,110.2,17.2,-2.62,drop
+143,Lincoln Square West,Manhattan,2023-06-11 11:00:00,91,51.1,15.2,2.62,surge
+158,Meatpacking/West Village West,Manhattan,2023-06-05 22:00:00,70,39.9,11.5,2.62,surge
+163,Midtown North,Manhattan,2023-06-23 22:00:00,221,126.4,36.1,2.62,surge
+79,East Village,Manhattan,2023-06-14 00:00:00,127,80.9,17.6,2.62,surge
+230,Times Sq/Theatre District,Manhattan,2023-06-28 22:00:00,129,290.8,61.8,-2.62,drop
+125,Hudson Sq,Manhattan,2023-06-15 16:00:00,41,24.4,6.3,2.62,surge
+68,East Chelsea,Manhattan,2023-07-24 23:00:00,129,76.5,20.0,2.62,surge
+239,Upper West Side South,Manhattan,2023-07-04 13:00:00,106,171.7,25.1,-2.62,drop
+100,Garment District,Manhattan,2023-07-04 21:00:00,54,96.4,16.2,-2.62,drop
+237,Upper East Side South,Manhattan,2023-07-04 11:00:00,156,317.4,61.6,-2.62,drop
+238,Upper West Side North,Manhattan,2023-06-12 20:00:00,109,61.4,18.2,2.62,surge
+48,Clinton East,Manhattan,2023-06-23 02:00:00,102,53.2,18.6,2.62,surge
+256,Williamsburg (South Side),Brooklyn,2023-06-11 00:00:00,25,11.0,5.3,2.62,surge
+164,Midtown South,Manhattan,2023-07-04 17:00:00,97,175.0,29.7,-2.62,drop
+113,Greenwich Village North,Manhattan,2023-06-14 13:00:00,96,68.2,10.6,2.62,surge
+166,Morningside Heights,Manhattan,2023-07-04 14:00:00,13,29.5,6.3,-2.62,drop
+262,Yorkville East,Manhattan,2023-06-09 22:00:00,42,24.2,6.8,2.62,surge
+100,Garment District,Manhattan,2023-06-25 07:00:00,40,26.7,5.1,2.62,surge
+79,East Village,Manhattan,2023-06-07 14:00:00,97,64.4,12.4,2.62,surge
+114,Greenwich Village South,Manhattan,2023-06-03 20:00:00,138,94.6,16.6,2.62,surge
+161,Midtown Center,Manhattan,2023-06-26 10:00:00,300,191.2,41.5,2.62,surge
+170,Murray Hill,Manhattan,2023-07-01 15:00:00,90,144.5,20.9,-2.61,drop
+143,Lincoln Square West,Manhattan,2023-06-03 12:00:00,95,61.3,12.9,2.61,surge
+162,Midtown East,Manhattan,2023-07-03 11:00:00,123,183.7,23.3,-2.61,drop
+236,Upper East Side North,Manhattan,2023-06-14 22:00:00,191,100.4,34.7,2.61,surge
+231,TriBeCa/Civic Center,Manhattan,2023-07-04 15:00:00,25,76.0,19.6,-2.61,drop
+246,West Chelsea/Hudson Yards,Manhattan,2023-06-25 15:00:00,159,110.8,18.4,2.61,surge
+132,JFK Airport,Queens,2023-07-26 01:00:00,355,146.8,79.9,2.61,surge
+100,Garment District,Manhattan,2023-06-12 20:00:00,124,79.2,17.1,2.61,surge
+158,Meatpacking/West Village West,Manhattan,2023-06-02 18:00:00,101,56.4,17.1,2.61,surge
+237,Upper East Side South,Manhattan,2023-06-04 18:00:00,292,188.8,39.6,2.61,surge
+158,Meatpacking/West Village West,Manhattan,2023-07-15 12:00:00,52,34.5,6.7,2.61,surge
+144,Little Italy/NoLiTa,Manhattan,2023-06-18 23:00:00,45,23.9,8.1,2.61,surge
+100,Garment District,Manhattan,2023-06-23 02:00:00,31,18.7,4.7,2.61,surge
+75,East Harlem South,Manhattan,2023-06-16 14:00:00,88,51.2,14.1,2.61,surge
+142,Lincoln Square East,Manhattan,2023-06-04 16:00:00,251,163.4,33.6,2.61,surge
+234,Union Sq,Manhattan,2023-07-04 18:00:00,74,230.8,60.1,-2.61,drop
+162,Midtown East,Manhattan,2023-06-10 23:00:00,188,117.8,26.9,2.61,surge
+234,Union Sq,Manhattan,2023-07-04 19:00:00,68,206.8,53.2,-2.61,drop
+80,East Williamsburg,Brooklyn,2023-06-25 03:00:00,25,12.2,4.9,2.61,surge
+238,Upper West Side North,Manhattan,2023-06-12 12:00:00,161,112.5,18.6,2.61,surge
+231,TriBeCa/Civic Center,Manhattan,2023-08-21 13:00:00,81,60.0,8.1,2.61,surge
+70,East Elmhurst,Queens,2023-06-15 22:00:00,51,23.7,10.4,2.61,surge
+234,Union Sq,Manhattan,2023-06-04 09:00:00,71,40.4,11.7,2.61,surge
+88,Financial District South,Manhattan,2023-07-12 10:00:00,26,13.7,4.7,2.61,surge
+75,East Harlem South,Manhattan,2023-06-04 11:00:00,46,24.1,8.4,2.61,surge
+90,Flatiron,Manhattan,2023-06-21 00:00:00,70,37.2,12.6,2.6,surge
+263,Yorkville West,Manhattan,2023-06-16 04:00:00,23,11.1,4.6,2.6,surge
+142,Lincoln Square East,Manhattan,2023-06-06 23:00:00,203,98.7,40.1,2.6,surge
+233,UN/Turtle Bay South,Manhattan,2023-07-04 08:00:00,29,74.6,17.6,-2.6,drop
+211,SoHo,Manhattan,2023-06-14 23:00:00,65,36.7,10.9,2.6,surge
+90,Flatiron,Manhattan,2023-06-25 15:00:00,34,81.1,18.1,-2.6,drop
+75,East Harlem South,Manhattan,2023-07-04 12:00:00,15,39.5,9.4,-2.6,drop
+143,Lincoln Square West,Manhattan,2023-07-04 06:00:00,5,20.9,6.1,-2.6,drop
+132,JFK Airport,Queens,2023-07-03 07:00:00,122,211.5,34.4,-2.6,drop
+68,East Chelsea,Manhattan,2023-07-04 20:00:00,94,170.6,29.5,-2.6,drop
+170,Murray Hill,Manhattan,2023-07-03 15:00:00,130,194.7,24.9,-2.6,drop
+75,East Harlem South,Manhattan,2023-06-04 15:00:00,50,27.6,8.6,2.6,surge
+186,Penn Station/Madison Sq West,Manhattan,2023-07-04 05:00:00,11,49.4,14.8,-2.6,drop
+114,Greenwich Village South,Manhattan,2023-06-06 13:00:00,57,33.0,9.2,2.6,surge
+239,Upper West Side South,Manhattan,2023-07-04 10:00:00,76,149.3,28.2,-2.6,drop
+249,West Village,Manhattan,2023-07-04 09:00:00,17,68.4,19.8,-2.6,drop
+236,Upper East Side North,Manhattan,2023-06-03 16:00:00,346,200.3,56.1,2.6,surge
+132,JFK Airport,Queens,2023-08-31 10:00:00,214,140.9,28.1,2.6,surge
+141,Lenox Hill West,Manhattan,2023-07-02 19:00:00,61,104.2,16.6,-2.6,drop
+170,Murray Hill,Manhattan,2023-06-03 07:00:00,51,33.7,6.7,2.6,surge
+161,Midtown Center,Manhattan,2023-08-31 12:00:00,220,312.2,35.5,-2.6,drop
+138,LaGuardia Airport,Queens,2023-07-28 00:00:00,252,123.2,49.8,2.59,surge
+50,Clinton West,Manhattan,2023-07-16 17:00:00,20,36.8,6.5,-2.59,drop
+166,Morningside Heights,Manhattan,2023-06-02 19:00:00,45,22.2,8.8,2.59,surge
+68,East Chelsea,Manhattan,2023-07-18 12:00:00,180,130.7,19.0,2.59,surge
+70,East Elmhurst,Queens,2023-07-26 16:00:00,60,32.2,10.7,2.59,surge
+186,Penn Station/Madison Sq West,Manhattan,2023-07-02 20:00:00,140,249.2,42.1,-2.59,drop
+142,Lincoln Square East,Manhattan,2023-06-04 20:00:00,214,145.1,26.6,2.59,surge
+186,Penn Station/Madison Sq West,Manhattan,2023-06-19 19:00:00,316,178.5,53.2,2.59,surge
+151,Manhattan Valley,Manhattan,2023-06-06 18:00:00,88,47.5,15.6,2.59,surge
+246,West Chelsea/Hudson Yards,Manhattan,2023-07-04 17:00:00,60,140.8,31.2,-2.59,drop
+142,Lincoln Square East,Manhattan,2023-07-21 00:00:00,183,71.5,43.0,2.59,surge
+90,Flatiron,Manhattan,2023-07-25 15:00:00,134,82.8,19.8,2.59,surge
+166,Morningside Heights,Manhattan,2023-06-03 21:00:00,35,16.1,7.3,2.59,surge
+114,Greenwich Village South,Manhattan,2023-06-23 19:00:00,128,77.2,19.6,2.59,surge
+90,Flatiron,Manhattan,2023-06-22 08:00:00,111,69.5,16.0,2.59,surge
+186,Penn Station/Madison Sq West,Manhattan,2023-08-05 00:00:00,259,116.8,54.9,2.59,surge
+68,East Chelsea,Manhattan,2023-06-26 10:00:00,185,107.4,30.0,2.59,surge
+231,TriBeCa/Civic Center,Manhattan,2023-06-09 19:00:00,178,96.5,31.5,2.59,surge
+229,Sutton Place/Turtle Bay North,Manhattan,2023-06-11 00:00:00,93,51.1,16.2,2.59,surge
+140,Lenox Hill East,Manhattan,2023-06-12 20:00:00,102,73.3,11.1,2.59,surge
+162,Midtown East,Manhattan,2023-06-23 01:00:00,52,28.9,8.9,2.59,surge
+163,Midtown North,Manhattan,2023-07-04 13:00:00,95,181.2,33.3,-2.59,drop
+233,UN/Turtle Bay South,Manhattan,2023-06-01 23:00:00,58,32.8,9.7,2.59,surge
+87,Financial District North,Manhattan,2023-08-24 14:00:00,21,31.7,4.1,-2.59,drop
+75,East Harlem South,Manhattan,2023-06-07 14:00:00,80,46.4,13.0,2.59,surge
+236,Upper East Side North,Manhattan,2023-07-04 07:00:00,28,188.7,62.1,-2.59,drop
+142,Lincoln Square East,Manhattan,2023-06-22 08:00:00,255,151.4,40.0,2.59,surge
+13,Battery Park City,Manhattan,2023-06-12 19:00:00,71,42.1,11.1,2.59,surge
+90,Flatiron,Manhattan,2023-06-17 15:00:00,149,101.5,18.4,2.59,surge
+246,West Chelsea/Hudson Yards,Manhattan,2023-07-04 08:00:00,6,40.4,13.3,-2.59,drop
+132,JFK Airport,Queens,2023-06-20 05:00:00,131,77.6,20.6,2.59,surge
+48,Clinton East,Manhattan,2023-06-14 13:00:00,147,105.2,16.1,2.59,surge
+163,Midtown North,Manhattan,2023-06-25 21:00:00,144,85.7,22.5,2.59,surge
+264,N/A,Unknown,2023-07-12 16:00:00,79,49.3,11.4,2.59,surge
+90,Flatiron,Manhattan,2023-06-09 17:00:00,130,99.8,11.6,2.59,surge
+236,Upper East Side North,Manhattan,2023-06-04 17:00:00,310,173.3,53.1,2.58,surge
+41,Central Harlem,Manhattan,2023-06-01 14:00:00,28,13.4,5.7,2.58,surge
+170,Murray Hill,Manhattan,2023-07-04 14:00:00,140,212.0,27.9,-2.58,drop
+140,Lenox Hill East,Manhattan,2023-06-02 18:00:00,222,141.6,31.2,2.58,surge
+158,Meatpacking/West Village West,Manhattan,2023-07-02 00:00:00,83,128.7,17.7,-2.58,drop
+68,East Chelsea,Manhattan,2023-06-22 06:00:00,45,23.9,8.2,2.58,surge
+229,Sutton Place/Turtle Bay North,Manhattan,2023-06-11 23:00:00,44,27.2,6.5,2.58,surge
+162,Midtown East,Manhattan,2023-06-09 23:00:00,195,111.7,32.3,2.58,surge
+164,Midtown South,Manhattan,2023-07-01 15:00:00,69,116.8,18.5,-2.58,drop
+230,Times Sq/Theatre District,Manhattan,2023-07-04 22:00:00,72,228.9,60.8,-2.58,drop
+68,East Chelsea,Manhattan,2023-06-23 01:00:00,88,51.0,14.3,2.58,surge
+140,Lenox Hill East,Manhattan,2023-07-04 07:00:00,15,89.6,29.0,-2.58,drop
+113,Greenwich Village North,Manhattan,2023-07-15 17:00:00,144,92.5,20.0,2.58,surge
+141,Lenox Hill West,Manhattan,2023-07-04 15:00:00,80,140.1,23.2,-2.58,drop
+107,Gramercy,Manhattan,2023-07-04 23:00:00,126,72.3,20.8,2.58,surge
+114,Greenwich Village South,Manhattan,2023-08-09 02:00:00,25,12.5,4.8,2.58,surge
+24,Bloomingdale,Manhattan,2023-06-07 08:00:00,37,23.2,5.3,2.58,surge
+137,Kips Bay,Manhattan,2023-07-04 10:00:00,22,55.8,13.1,-2.58,drop
+166,Morningside Heights,Manhattan,2023-06-13 20:00:00,26,14.7,4.4,2.58,surge
+231,TriBeCa/Civic Center,Manhattan,2023-08-25 06:00:00,3,12.5,3.7,-2.58,drop
+141,Lenox Hill West,Manhattan,2023-07-03 09:00:00,51,115.5,25.0,-2.58,drop
+87,Financial District North,Manhattan,2023-07-17 10:00:00,24,17.5,2.5,2.58,surge
+262,Yorkville East,Manhattan,2023-06-07 15:00:00,138,72.1,25.6,2.58,surge
+151,Manhattan Valley,Manhattan,2023-06-17 13:00:00,108,58.6,19.1,2.58,surge
+132,JFK Airport,Queens,2023-06-26 01:00:00,354,170.4,71.1,2.58,surge
+166,Morningside Heights,Manhattan,2023-06-16 09:00:00,47,23.8,9.0,2.58,surge
+70,East Elmhurst,Queens,2023-06-24 10:00:00,39,17.5,8.3,2.58,surge
+236,Upper East Side North,Manhattan,2023-07-04 13:00:00,136,293.5,61.0,-2.58,drop
+211,SoHo,Manhattan,2023-06-23 00:00:00,84,52.4,12.3,2.58,surge
+246,West Chelsea/Hudson Yards,Manhattan,2023-06-25 16:00:00,157,107.8,19.0,2.58,surge
+75,East Harlem South,Manhattan,2023-07-22 20:00:00,49,25.3,9.2,2.57,surge
+238,Upper West Side North,Manhattan,2023-06-07 11:00:00,172,122.2,19.3,2.57,surge
+163,Midtown North,Manhattan,2023-06-03 20:00:00,173,115.2,22.5,2.57,surge
+114,Greenwich Village South,Manhattan,2023-07-06 00:00:00,29,83.0,21.0,-2.57,drop
+162,Midtown East,Manhattan,2023-06-04 17:00:00,260,174.1,33.4,2.57,surge
+148,Lower East Side,Manhattan,2023-06-26 10:00:00,21,11.5,3.7,2.57,surge
+237,Upper East Side South,Manhattan,2023-06-12 20:00:00,359,203.6,60.4,2.57,surge
+113,Greenwich Village North,Manhattan,2023-07-05 20:00:00,43,89.2,18.0,-2.57,drop
+43,Central Park,Manhattan,2023-07-15 14:00:00,216,155.5,23.5,2.57,surge
+186,Penn Station/Madison Sq West,Manhattan,2023-07-04 10:00:00,83,222.5,54.4,-2.57,drop
+43,Central Park,Manhattan,2023-06-03 00:00:00,26,12.8,5.1,2.57,surge
+90,Flatiron,Manhattan,2023-06-17 14:00:00,168,101.8,25.7,2.57,surge
+148,Lower East Side,Manhattan,2023-07-02 00:00:00,153,262.1,42.4,-2.57,drop
+262,Yorkville East,Manhattan,2023-06-14 12:00:00,143,98.5,17.3,2.57,surge
+233,UN/Turtle Bay South,Manhattan,2023-06-10 12:00:00,128,85.1,16.7,2.57,surge
+142,Lincoln Square East,Manhattan,2023-06-12 19:00:00,248,158.7,34.7,2.57,surge
+90,Flatiron,Manhattan,2023-06-25 02:00:00,122,73.8,18.8,2.57,surge
+162,Midtown East,Manhattan,2023-07-03 17:00:00,109,269.2,62.2,-2.57,drop
+170,Murray Hill,Manhattan,2023-07-04 19:00:00,106,221.0,44.8,-2.57,drop
+211,SoHo,Manhattan,2023-07-04 22:00:00,16,46.0,11.7,-2.57,drop
+158,Meatpacking/West Village West,Manhattan,2023-07-04 08:00:00,6,24.5,7.2,-2.57,drop
+170,Murray Hill,Manhattan,2023-06-22 00:00:00,120,53.3,25.9,2.57,surge
+13,Battery Park City,Manhattan,2023-07-04 16:00:00,20,49.2,11.4,-2.56,drop
+125,Hudson Sq,Manhattan,2023-06-12 11:00:00,25,16.2,3.4,2.56,surge
+158,Meatpacking/West Village West,Manhattan,2023-07-29 15:00:00,84,54.5,11.5,2.56,surge
+249,West Village,Manhattan,2023-06-25 04:00:00,91,56.8,13.4,2.56,surge
+43,Central Park,Manhattan,2023-07-10 22:00:00,77,33.2,17.1,2.56,surge
+236,Upper East Side North,Manhattan,2023-06-07 15:00:00,508,312.8,76.4,2.56,surge
+237,Upper East Side South,Manhattan,2023-06-04 19:00:00,213,138.5,29.1,2.56,surge
+114,Greenwich Village South,Manhattan,2023-07-05 00:00:00,24,60.9,14.4,-2.56,drop
+186,Penn Station/Madison Sq West,Manhattan,2023-07-04 21:00:00,255,154.2,39.4,2.56,surge
+229,Sutton Place/Turtle Bay North,Manhattan,2023-07-04 09:00:00,49,128.7,31.1,-2.56,drop
+237,Upper East Side South,Manhattan,2023-06-04 13:00:00,301,191.1,43.0,2.56,surge
+186,Penn Station/Madison Sq West,Manhattan,2023-07-06 02:00:00,41,18.4,8.8,2.56,surge
+48,Clinton East,Manhattan,2023-06-25 21:00:00,207,137.5,27.1,2.56,surge
+264,N/A,Unknown,2023-08-24 20:00:00,23,51.9,11.3,-2.56,drop
+186,Penn Station/Madison Sq West,Manhattan,2023-07-05 13:00:00,257,194.7,24.4,2.56,surge
+88,Financial District South,Manhattan,2023-07-30 13:00:00,23,14.2,3.5,2.56,surge
+113,Greenwich Village North,Manhattan,2023-07-04 06:00:00,3,14.0,4.3,-2.56,drop
+113,Greenwich Village North,Manhattan,2023-06-25 17:00:00,27,73.1,18.0,-2.56,drop
+68,East Chelsea,Manhattan,2023-06-09 19:00:00,259,188.0,27.7,2.56,surge
+158,Meatpacking/West Village West,Manhattan,2023-06-23 02:00:00,63,30.8,12.6,2.56,surge
+50,Clinton West,Manhattan,2023-06-20 12:00:00,66,41.5,9.6,2.56,surge
+231,TriBeCa/Civic Center,Manhattan,2023-06-12 20:00:00,121,72.8,18.8,2.56,surge
+41,Central Harlem,Manhattan,2023-06-13 16:00:00,20,11.2,3.4,2.56,surge
+137,Kips Bay,Manhattan,2023-06-04 09:00:00,45,27.0,7.0,2.56,surge
+113,Greenwich Village North,Manhattan,2023-07-04 08:00:00,6,57.2,20.0,-2.56,drop
+88,Financial District South,Manhattan,2023-06-13 14:00:00,36,19.2,6.6,2.56,surge
+88,Financial District South,Manhattan,2023-06-10 17:00:00,56,32.2,9.3,2.56,surge
+230,Times Sq/Theatre District,Manhattan,2023-07-07 08:00:00,67,99.3,12.7,-2.55,drop
+90,Flatiron,Manhattan,2023-06-18 13:00:00,123,80.8,16.5,2.55,surge
+262,Yorkville East,Manhattan,2023-06-29 05:00:00,25,16.4,3.4,2.55,surge
+43,Central Park,Manhattan,2023-06-22 23:00:00,108,37.6,27.6,2.55,surge
+144,Little Italy/NoLiTa,Manhattan,2023-06-10 00:00:00,148,108.8,15.4,2.55,surge
+163,Midtown North,Manhattan,2023-07-04 16:00:00,89,220.0,51.4,-2.55,drop
+141,Lenox Hill West,Manhattan,2023-07-04 17:00:00,70,141.2,27.9,-2.55,drop
+90,Flatiron,Manhattan,2023-07-04 10:00:00,30,66.5,14.3,-2.55,drop
+143,Lincoln Square West,Manhattan,2023-07-04 12:00:00,35,67.3,12.7,-2.55,drop
+41,Central Harlem,Manhattan,2023-06-02 18:00:00,30,14.6,6.0,2.55,surge
+142,Lincoln Square East,Manhattan,2023-06-16 13:00:00,248,172.8,29.5,2.55,surge
+238,Upper West Side North,Manhattan,2023-07-04 08:00:00,31,136.7,41.4,-2.55,drop
+142,Lincoln Square East,Manhattan,2023-07-04 07:00:00,5,89.1,33.0,-2.55,drop
+140,Lenox Hill East,Manhattan,2023-06-16 14:00:00,197,141.6,21.7,2.55,surge
+229,Sutton Place/Turtle Bay North,Manhattan,2023-06-02 18:00:00,239,147.7,35.8,2.55,surge
+90,Flatiron,Manhattan,2023-06-13 23:00:00,80,60.0,7.9,2.55,surge
+233,UN/Turtle Bay South,Manhattan,2023-06-24 02:00:00,26,14.4,4.6,2.55,surge
+234,Union Sq,Manhattan,2023-06-25 17:00:00,36,115.8,31.3,-2.55,drop
+246,West Chelsea/Hudson Yards,Manhattan,2023-06-24 15:00:00,200,135.8,25.2,2.55,surge
+262,Yorkville East,Manhattan,2023-06-14 10:00:00,157,109.2,18.7,2.55,surge
+140,Lenox Hill East,Manhattan,2023-05-31 23:00:00,1,26.6,10.1,-2.55,drop
+50,Clinton West,Manhattan,2023-06-16 14:00:00,71,38.5,12.7,2.55,surge
+163,Midtown North,Manhattan,2023-06-23 02:00:00,40,20.3,7.7,2.55,surge
+48,Clinton East,Manhattan,2023-06-07 06:00:00,134,75.0,23.1,2.55,surge
+249,West Village,Manhattan,2023-06-18 09:00:00,47,27.6,7.6,2.55,surge
+231,TriBeCa/Civic Center,Manhattan,2023-06-13 23:00:00,108,54.8,20.8,2.55,surge
+164,Midtown South,Manhattan,2023-08-31 16:00:00,113,163.2,19.7,-2.55,drop
+70,East Elmhurst,Queens,2023-06-25 10:00:00,32,15.8,6.3,2.54,surge
+246,West Chelsea/Hudson Yards,Manhattan,2023-07-04 00:00:00,28,13.2,5.8,2.54,surge
+100,Garment District,Manhattan,2023-06-09 17:00:00,140,100.1,15.7,2.54,surge
+162,Midtown East,Manhattan,2023-06-11 23:00:00,122,69.7,20.6,2.54,surge
+161,Midtown Center,Manhattan,2023-06-16 01:00:00,60,32.1,11.0,2.54,surge
+264,N/A,Unknown,2023-06-03 21:00:00,68,46.8,8.4,2.54,surge
+170,Murray Hill,Manhattan,2023-07-04 15:00:00,89,206.5,46.2,-2.54,drop
+70,East Elmhurst,Queens,2023-08-22 15:00:00,58,29.3,11.3,2.54,surge
+234,Union Sq,Manhattan,2023-07-04 21:00:00,77,192.2,45.4,-2.54,drop
+100,Garment District,Manhattan,2023-06-06 22:00:00,131,80.3,20.0,2.54,surge
+233,UN/Turtle Bay South,Manhattan,2023-06-11 13:00:00,107,71.3,14.0,2.54,surge
+249,West Village,Manhattan,2023-06-07 13:00:00,105,67.4,14.8,2.54,surge
+68,East Chelsea,Manhattan,2023-07-04 02:00:00,39,15.5,9.3,2.54,surge
+142,Lincoln Square East,Manhattan,2023-06-09 20:00:00,229,155.5,29.0,2.54,surge
+43,Central Park,Manhattan,2023-06-26 10:00:00,118,71.3,18.4,2.54,surge
+237,Upper East Side South,Manhattan,2023-06-23 00:00:00,90,51.7,15.1,2.54,surge
+186,Penn Station/Madison Sq West,Manhattan,2023-08-12 20:00:00,279,163.6,45.5,2.54,surge
+164,Midtown South,Manhattan,2023-06-02 06:00:00,32,19.8,4.8,2.54,surge
+230,Times Sq/Theatre District,Manhattan,2023-06-26 08:00:00,146,98.2,18.8,2.54,surge
+90,Flatiron,Manhattan,2023-06-19 02:00:00,28,11.6,6.4,2.54,surge
+239,Upper West Side South,Manhattan,2023-06-06 22:00:00,201,107.4,36.9,2.54,surge
+236,Upper East Side North,Manhattan,2023-06-03 12:00:00,349,207.9,55.5,2.54,surge
+75,East Harlem South,Manhattan,2023-06-13 18:00:00,62,29.7,12.7,2.54,surge
+100,Garment District,Manhattan,2023-08-31 15:00:00,66,99.2,13.1,-2.54,drop
+140,Lenox Hill East,Manhattan,2023-06-07 14:00:00,236,175.2,24.0,2.54,surge
+249,West Village,Manhattan,2023-06-17 12:00:00,127,81.2,18.1,2.53,surge
+230,Times Sq/Theatre District,Manhattan,2023-07-07 22:00:00,144,266.5,48.5,-2.53,drop
+239,Upper West Side South,Manhattan,2023-06-07 14:00:00,272,197.9,29.3,2.53,surge
+138,LaGuardia Airport,Queens,2023-06-23 21:00:00,320,186.2,53.0,2.53,surge
+249,West Village,Manhattan,2023-06-24 03:00:00,213,143.5,27.5,2.53,surge
+234,Union Sq,Manhattan,2023-06-04 08:00:00,47,24.9,8.7,2.53,surge
+148,Lower East Side,Manhattan,2023-06-14 08:00:00,27,16.4,4.2,2.53,surge
+170,Murray Hill,Manhattan,2023-07-02 16:00:00,102,141.2,15.5,-2.53,drop
+161,Midtown Center,Manhattan,2023-07-04 20:00:00,106,368.8,104.1,-2.53,drop
+158,Meatpacking/West Village West,Manhattan,2023-07-04 20:00:00,21,53.0,12.6,-2.53,drop
+144,Little Italy/NoLiTa,Manhattan,2023-06-09 04:00:00,24,10.8,5.2,2.53,surge
+43,Central Park,Manhattan,2023-06-11 14:00:00,54,135.7,32.3,-2.53,drop
+138,LaGuardia Airport,Queens,2023-06-14 22:00:00,342,175.6,65.7,2.53,surge
+229,Sutton Place/Turtle Bay North,Manhattan,2023-06-22 00:00:00,59,32.4,10.5,2.53,surge
+163,Midtown North,Manhattan,2023-06-23 01:00:00,72,34.0,15.0,2.53,surge
+186,Penn Station/Madison Sq West,Manhattan,2023-08-12 05:00:00,20,28.6,3.4,-2.53,drop
+70,East Elmhurst,Queens,2023-08-19 15:00:00,44,21.4,8.9,2.53,surge
+151,Manhattan Valley,Manhattan,2023-06-04 17:00:00,81,46.0,13.8,2.53,surge
+249,West Village,Manhattan,2023-06-25 23:00:00,167,83.6,33.0,2.53,surge
+75,East Harlem South,Manhattan,2023-06-02 09:00:00,46,31.8,5.6,2.53,surge
+43,Central Park,Manhattan,2023-06-01 19:00:00,156,89.4,26.3,2.53,surge
+132,JFK Airport,Queens,2023-06-27 04:00:00,102,38.8,25.1,2.52,surge
+238,Upper West Side North,Manhattan,2023-06-02 19:00:00,159,99.4,23.6,2.52,surge
+75,East Harlem South,Manhattan,2023-07-10 09:00:00,51,32.0,7.5,2.52,surge
+164,Midtown South,Manhattan,2023-06-12 20:00:00,214,136.1,30.9,2.52,surge
+87,Financial District North,Manhattan,2023-07-13 12:00:00,43,27.6,6.1,2.52,surge
+43,Central Park,Manhattan,2023-06-25 11:00:00,121,82.1,15.5,2.52,surge
+50,Clinton West,Manhattan,2023-07-04 18:00:00,17,36.4,7.7,-2.52,drop
+90,Flatiron,Manhattan,2023-07-04 17:00:00,48,99.0,20.2,-2.52,drop
+236,Upper East Side North,Manhattan,2023-06-10 22:00:00,151,78.5,28.8,2.52,surge
+125,Hudson Sq,Manhattan,2023-07-05 20:00:00,19,36.2,6.8,-2.52,drop
+237,Upper East Side South,Manhattan,2023-06-03 11:00:00,316,190.6,49.7,2.52,surge
+151,Manhattan Valley,Manhattan,2023-06-05 17:00:00,72,47.6,9.7,2.52,surge
+132,JFK Airport,Queens,2023-08-31 14:00:00,368,288.1,31.7,2.52,surge
+148,Lower East Side,Manhattan,2023-07-02 01:00:00,229,342.6,45.0,-2.52,drop
+140,Lenox Hill East,Manhattan,2023-06-09 21:00:00,102,63.6,15.2,2.52,surge
+48,Clinton East,Manhattan,2023-06-19 04:00:00,63,26.5,14.5,2.52,surge
+237,Upper East Side South,Manhattan,2023-06-05 23:00:00,97,50.6,18.4,2.52,surge
+236,Upper East Side North,Manhattan,2023-06-03 15:00:00,351,209.8,55.9,2.52,surge
+141,Lenox Hill West,Manhattan,2023-06-03 22:00:00,166,99.9,26.3,2.52,surge
+43,Central Park,Manhattan,2023-06-11 15:00:00,65,141.2,30.3,-2.52,drop
+79,East Village,Manhattan,2023-07-02 00:00:00,215,419.0,81.1,-2.52,drop
+151,Manhattan Valley,Manhattan,2023-08-29 08:00:00,132,61.5,28.0,2.52,surge
+107,Gramercy,Manhattan,2023-07-04 19:00:00,61,116.1,21.8,-2.52,drop
+246,West Chelsea/Hudson Yards,Manhattan,2023-06-26 13:00:00,162,81.5,31.9,2.52,surge
+143,Lincoln Square West,Manhattan,2023-06-15 10:00:00,104,74.4,11.8,2.51,surge
+68,East Chelsea,Manhattan,2023-07-31 00:00:00,88,46.5,16.6,2.51,surge
+229,Sutton Place/Turtle Bay North,Manhattan,2023-08-20 03:00:00,7,17.9,4.3,-2.51,drop
+151,Manhattan Valley,Manhattan,2023-06-02 21:00:00,44,26.8,6.9,2.51,surge
+186,Penn Station/Madison Sq West,Manhattan,2023-08-23 22:00:00,250,142.6,42.8,2.51,surge
+264,N/A,Unknown,2023-08-30 10:00:00,19,39.5,8.2,-2.51,drop
+209,Seaport,Manhattan,2023-07-15 17:00:00,34,18.5,6.2,2.51,surge
+170,Murray Hill,Manhattan,2023-06-11 00:00:00,149,90.0,23.5,2.51,surge
+170,Murray Hill,Manhattan,2023-07-04 06:00:00,12,40.6,11.4,-2.51,drop
+230,Times Sq/Theatre District,Manhattan,2023-06-17 18:00:00,233,174.8,23.1,2.51,surge
+237,Upper East Side South,Manhattan,2023-07-03 12:00:00,183,288.6,42.0,-2.51,drop
+161,Midtown Center,Manhattan,2023-07-14 07:00:00,92,62.2,11.8,2.51,surge
+125,Hudson Sq,Manhattan,2023-07-06 00:00:00,4,13.4,3.7,-2.51,drop
+132,JFK Airport,Queens,2023-07-15 03:00:00,84,32.8,20.4,2.51,surge
+88,Financial District South,Manhattan,2023-06-18 19:00:00,32,15.8,6.5,2.51,surge
+161,Midtown Center,Manhattan,2023-06-07 01:00:00,52,25.3,10.6,2.51,surge
+237,Upper East Side South,Manhattan,2023-06-03 22:00:00,294,151.5,56.8,2.51,surge
+107,Gramercy,Manhattan,2023-06-25 17:00:00,136,85.5,20.1,2.51,surge
+125,Hudson Sq,Manhattan,2023-06-02 18:00:00,46,29.0,6.8,2.51,surge
+264,N/A,Unknown,2023-06-03 17:00:00,78,50.8,10.8,2.51,surge
+246,West Chelsea/Hudson Yards,Manhattan,2023-06-26 02:00:00,51,21.5,11.8,2.51,surge
+166,Morningside Heights,Manhattan,2023-06-22 08:00:00,61,30.3,12.3,2.51,surge
+141,Lenox Hill West,Manhattan,2023-06-03 11:00:00,188,121.6,26.5,2.51,surge
+158,Meatpacking/West Village West,Manhattan,2023-06-03 22:00:00,119,88.2,12.2,2.51,surge
+186,Penn Station/Madison Sq West,Manhattan,2023-07-03 09:00:00,113,228.6,46.0,-2.51,drop
+170,Murray Hill,Manhattan,2023-08-07 06:00:00,73,41.2,12.7,2.51,surge
+137,Kips Bay,Manhattan,2023-07-30 23:00:00,11,21.6,4.2,-2.51,drop
+158,Meatpacking/West Village West,Manhattan,2023-06-02 11:00:00,35,24.5,4.2,2.51,surge
+24,Bloomingdale,Manhattan,2023-08-21 13:00:00,23,14.9,3.2,2.5,surge
+262,Yorkville East,Manhattan,2023-06-15 09:00:00,178,133.9,17.6,2.5,surge
+68,East Chelsea,Manhattan,2023-06-02 09:00:00,120,86.5,13.4,2.5,surge
+88,Financial District South,Manhattan,2023-06-13 22:00:00,24,11.8,4.9,2.5,surge
+48,Clinton East,Manhattan,2023-06-26 01:00:00,111,50.2,24.3,2.5,surge
+79,East Village,Manhattan,2023-07-25 15:00:00,82,52.9,11.6,2.5,surge
+237,Upper East Side South,Manhattan,2023-07-04 20:00:00,69,265.1,78.3,-2.5,drop
+238,Upper West Side North,Manhattan,2023-06-12 00:00:00,21,10.5,4.2,2.5,surge
+140,Lenox Hill East,Manhattan,2023-07-10 23:00:00,29,20.5,3.4,2.5,surge
+45,Chinatown,Manhattan,2023-06-16 14:00:00,18,11.2,2.7,2.5,surge
+79,East Village,Manhattan,2023-07-04 07:00:00,11,39.9,11.6,-2.5,drop
+142,Lincoln Square East,Manhattan,2023-06-07 15:00:00,275,185.2,35.9,2.5,surge
+186,Penn Station/Madison Sq West,Manhattan,2023-06-06 17:00:00,238,189.4,19.4,2.5,surge
+70,East Elmhurst,Queens,2023-06-06 11:00:00,60,25.2,13.9,2.5,surge
+164,Midtown South,Manhattan,2023-06-02 18:00:00,252,169.1,33.2,2.5,surge
+41,Central Harlem,Manhattan,2023-06-30 12:00:00,22,12.6,3.8,2.5,surge
+234,Union Sq,Manhattan,2023-07-04 20:00:00,69,202.2,53.3,-2.5,drop
+161,Midtown Center,Manhattan,2023-07-04 12:00:00,107,284.6,71.0,-2.5,drop
+48,Clinton East,Manhattan,2023-07-04 13:00:00,73,95.6,9.0,-2.5,drop
+234,Union Sq,Manhattan,2023-07-04 15:00:00,81,177.5,38.6,-2.5,drop
+161,Midtown Center,Manhattan,2023-07-04 14:00:00,178,367.8,75.8,-2.5,drop
+13,Battery Park City,Manhattan,2023-06-03 18:00:00,77,53.2,9.5,2.5,surge
+186,Penn Station/Madison Sq West,Manhattan,2023-07-03 10:00:00,117,209.8,37.1,-2.5,drop
