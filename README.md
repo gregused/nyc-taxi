@@ -1,4 +1,5 @@
 # NYC Taxi dbt Project
+![CI](https://github.com/YOUR_USERNAME/nyc-taxi-dbt/actions/workflows/ci.yml/badge.svg)
 
 An analytics engineering project that turns raw NYC TLC yellow taxi trip data into
 tested, documented marts using dbt and DuckDB.

@@ -4,8 +4,6 @@ Usage:
     python scripts/download_data.py --start 2023-01 --end 2023-03 --zones
 """
 
-from __future__ import annotations
-
 import argparse
 import sys
 import urllib.error

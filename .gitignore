@@ -7,3 +7,4 @@ logs/
 __pycache__/
 .venv/
 .DS_Store
+dbt_internal_packages/
